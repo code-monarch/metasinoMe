@@ -35,10 +35,7 @@ const About = (props) => {
         </div>
         <div>
           <Link href='/MetaSino_Litepaper.pdf'>
-            <a
-              className={styles.join}
-              target='_blank'
-              rel='noreferrer'>
+            <a className={styles.join} target='_blank' rel='noreferrer'>
               View Metasino litepaper
             </a>
           </Link>
@@ -59,7 +56,7 @@ const About = (props) => {
             <div>
               <a
                 className={styles.socials}
-                href='https://twitter.com/metasinolive'
+                href='https://t.me/MetasinoChat'
                 target='_blank'
                 rel='noreferrer'>
                 <i className='fab fa-telegram'></i>
