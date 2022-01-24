@@ -74,7 +74,7 @@ function Banner() {
         <div>
           <a
             className={styles.joinPresale}
-            href='https://nftmagic.app/#'
+            href='https://t.me/MetasinoChat'
             target='_blank'
             rel='noreferrer'>
             Join Presale

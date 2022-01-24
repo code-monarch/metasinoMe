@@ -11,7 +11,6 @@ class MyDocument extends Document {
             href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'
           />
           {/* PRELOAD FONT FILES */}
-          <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet"></link>
           <link
             rel='preload'
             href='/fonts/Lato-Regular.ttf'

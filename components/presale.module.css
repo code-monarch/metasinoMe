@@ -128,8 +128,7 @@
       }
 .container h2 {
       color: #cca354 !important;
-      font-family: 'Casino Flat',
-      'Titillium Web';
+      font-family: "Casino", sans-serif;
       font-size: 1.2rem;
       line-height: 30px;
       margin-bottom: 20px;
