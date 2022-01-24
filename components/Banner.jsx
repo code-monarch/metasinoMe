@@ -22,7 +22,7 @@ function Banner() {
             className={`${
               styles.metasinoLogo
             } ${"wow animate__animated animate__fadeInDown"}`}
-            src='img/metasino-logo.png'
+            src='img/Metasino-logo.png'
             alt='metasino logo'
           />
         </div>
