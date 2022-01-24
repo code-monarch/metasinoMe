@@ -12,25 +12,13 @@ class MyDocument extends Document {
           />
           {/* PRELOAD FONT FILES */}
           <link
-            rel='preload'
-            href='/fonts/Lato-Regular.ttf'
-            as='font'
+            href='https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap'
+            rel='stylesheet'
           />
-          <link
-            rel='preload'
-            href='/fonts/Casino.ttf'
-            as='font'
-          />
-          <link
-            rel='preload'
-            href='/fonts/CasinoFlat.ttf'
-            as='font'
-          />
-          <link
-            rel='preload'
-            href='/fonts/CasinoShadow.ttf'
-            as='font'
-          />
+          <link rel='preload' href='/fonts/Lato-Regular.ttf' as='font' />
+          <link rel='preload' href='/fonts/Casino.ttf' as='font' />
+          <link rel='preload' href='/fonts/CasinoFlat.ttf' as='font' />
+          <link rel='preload' href='/fonts/CasinoShadow.ttf' as='font' />
 
           {/* IMPORT POPPINS FONT FROM GOOGLE FONT */}
           <link rel='preconnect' href='https://fonts.googleapis.com' />
