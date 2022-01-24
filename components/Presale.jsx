@@ -23,7 +23,8 @@ const presale = ({id}) => {
         <a
           className={styles.joinPresale}
           href='https://t.me/MetasinoChat'
-          target='_blank'>
+          target='_blank'
+          rel='noopener noreferrer'>
           Join Presale
         </a>
       </div>
