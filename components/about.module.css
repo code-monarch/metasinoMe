@@ -350,18 +350,3 @@
         height: 330px;
     }
 }
-/* @media only screen and (max-width: 768px) {
-      .partnership,
-      .collaboration {
-          background-color: transparent;
-          display: flex !important;
-          flex-direction: column !important;
-          justify-content: space-between;
-          align-items: center ! important;
-          width: 80vw;
-          padding: auto;
-          height: 600px;
-          margin-bottom: 200px;
-          color: whitesmoke;
-      }
-} */
