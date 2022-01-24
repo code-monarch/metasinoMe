@@ -51,19 +51,19 @@ export default function Home() {
         <link
           rel='apple-touch-icon'
           sizes='180x180'
-          href='/img/Metasino-logo.png'
+           href='/favicon.ico'
         />
         <link
           rel='icon'
           type='image/png'
           sizes='32x32'
-          href='/img/Metasino-logo.png'
+           href='/favicon.ico'
         />
         <link
           rel='icon'
           type='image/png'
           sizes='16x16'
-          href='/img/Metasino-logo.png'
+           href='/favicon.ico'
         />
       </Head>
       <div className={hideMenuIcon ? styles.hideIcon : styles.menuIcon}>
