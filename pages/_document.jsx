@@ -13,17 +13,22 @@ class MyDocument extends Document {
           {/* PRELOAD FONT FILES */}
           <link
             rel='preload'
-            href='/metasino/public/fonts/Lato-Regular.ttf'
+            href='metasinoMe/public/fonts/Lato-Regular.ttf'
             as='font'
           />
           <link
             rel='preload'
-            href='/metasino/public/fonts/Casino.ttf'
+            href='metasinoMe/public/fonts/Casino.ttf'
             as='font'
           />
           <link
             rel='preload'
-            href='/metasino/public/fonts/CasinoShadow.ttf'
+            href='metasinoMe/public/fonts/CasinoFlat.ttf'
+            as='font'
+          />
+          <link
+            rel='preload'
+            href='metasinoMe/public/fonts/CasinoShadow.ttf'
             as='font'
           />
 
