@@ -51,7 +51,8 @@
     background: #cca354;
     color: black;
     font-size: 1.2rem;
-    font-family: "Casino";
+    font-family: 'Casino Flat',
+    'Titillium Web';
     transition: 0.4s;
 }
 
@@ -69,7 +70,7 @@
     border: 2px solid #cca354;
     color: whitesmoke;
     font-size: 1.2rem;
-    font-family: "Casino Flat";
+    font-family: 'Casino Flat''Titillium Web';
     transition: 0.4s;
 }
 
@@ -95,7 +96,8 @@
 
 .mus h4 {
     font-size: 30px;
-    font-family: "casino";
+    font-family: 'casino',
+    'Titillium Web';
     color: #cca354;
     margin-bottom: 10px;
 }
@@ -116,7 +118,8 @@
 }
 .socialsSection h3{
      font-size: 30px;
-     font-family: "casino";
+     font-family: 'casino',
+     'Titillium Web';
      color: #cca354;
      margin-bottom: 10px;
      text-align: center;
@@ -168,7 +171,8 @@
 .partnership h4,
 .collaboration h4 {
     font-size: 30px;
-    font-family: "Casino";
+    font-family: 'Casino',
+    'Titillium Web';
     color: #cca354;
     margin: 0;
 }
@@ -284,7 +288,7 @@
 
     .mus h4 {
         font-size: 20px;
-        font-family: 'Casino Flat';
+        font-family: 'Casino Flat','Titillium Web';
         color: #cca354;
         margin-bottom: 10px;
         margin-top: 0;
@@ -336,7 +340,8 @@
     .partnership h4,
     .collaboration h4 {
         font-size: 25px;
-        font-family: 'Casino Flat';
+        font-family: 'Casino Flat',
+        'Titillium Web';
         color: #cca354;
         margin: 0;
         text-align: center;

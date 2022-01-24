@@ -67,7 +67,8 @@
     margin-top: 0;
     color: #cca354;
     font-size: 22px;
-    font-family: "Casino", sans-serif;
+    font-family: 'Casino Flat',
+    'Titillium Web';
     text-align: center;
     width: 100%;
     height: 100px;
@@ -77,13 +78,15 @@
 .row .packageCards p {
     color: #fff;
     font-size: 30px;
-    font-family: "Casino", sans-serif;
+    font-family: 'Casino Flat',
+'Titillium Web';
     text-align: center;
 }
 
 .container h2 {
     color: whitesmoke !important;
-    font-family: "Casino", sans-serif;
+    font-family: 'Casino Flat',
+    'Titillium Web';
     font-size: 30px;
     margin-bottom: 20px;
 }
