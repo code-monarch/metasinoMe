@@ -88,7 +88,25 @@
 .sliderText1 {
     animation: slide 5s linear infinite;
 }
+.joinPresale {
+    /* background: black; */
+    background: #cca354;
+    text-decoration: none !important;
+    display: inline-block;
+    padding: 20px 30px;
+    margin: 10px 0 10px;
+    border-radius: 30px;
+    border: 2px solid #cca354;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    font-family: "Casino";
+}
 
+.joinPresale:hover {
+    background: #cca354;
+    /* border: 2px solid black; */
+    color: black;
+}
 
 @keyframes slide {
     0% {

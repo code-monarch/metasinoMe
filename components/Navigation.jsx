@@ -43,7 +43,7 @@ else ( setBottomBorder( `1px solid rgba(255, 255, 255, 0.2)`) )
           background: `rgba(0, 0, 0, ${backgroundTransparacy})`,
           padding: `${padding}px 0px`,
           boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
-           borderBottom:  bottomBorder,
+          borderBottom: bottomBorder,
         }}>
         <ul className={styles.NavigationList}>
           {/*  */}
@@ -55,11 +55,12 @@ else ( setBottomBorder( `1px solid rgba(255, 255, 255, 0.2)`) )
             <Link href='/#roadmap'>Roadmap</Link>
           </li>
           {/*  */}
-          <img className={styles.img} src='img/metasino-logo.png' alt='logo' />
+          <img className={styles.img} src='img/Metasino-logo.png' alt='logo' />
           {/*  */}
           <li className={styles.NavigationItem}>
             <Link href='/#tokenomics'>Tokenomics</Link>
           </li>
+          {/*  */}
           {/*  */}
           <li className={styles.NavigationItem}>
             <a

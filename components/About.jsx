@@ -90,7 +90,7 @@ const About = (props) => {
           <div data-aos='fade-right'>
             <img
               className={styles.metasinoLogo}
-              src='/img/metasino-logo.png'
+              src='/img/Metasino-logo.png'
               alt='metasino logo'
             />
           </div>

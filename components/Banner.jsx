@@ -71,6 +71,15 @@ function Banner() {
             </div>
           </div>
         </div>
+        <div>
+          <a
+            className={styles.joinPresale}
+            href='https://t.me/MetasinoChat'
+            target='_blank'
+            rel='noreferrer'>
+            Join Presale
+          </a>
+        </div>
       </div>
     </div>
   );

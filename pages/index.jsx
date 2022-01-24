@@ -61,7 +61,7 @@ export default function Home() {
       <About id={"about"} aboutData={aboutData} />
       <RoadMap id={"roadmap"} />
       <Tokenomics id={"tokenomics"} />
-      <Presale id={"prasale"} />
+      <Presale id={"presale"} />
       <Footer />
     </div>
   );
