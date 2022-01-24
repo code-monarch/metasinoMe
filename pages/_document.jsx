@@ -17,7 +17,7 @@ class MyDocument extends Document {
           />
           <link rel='preload' href='/fonts/Lato-Regular.ttf' as='font' />
           <link rel='preload' href='/fonts/Casino.ttf' as='font' />
-          <link rel='preload' href='/fonts/CasinoFlat.ttf' as='font' />
+          <link rel='stylesheet' href='/fonts/CasinoFlat.ttf' as='font' />
           <link rel='preload' href='/fonts/CasinoShadow.ttf' as='font' />
 
           {/* IMPORT POPPINS FONT FROM GOOGLE FONT */}

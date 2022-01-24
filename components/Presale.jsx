@@ -26,7 +26,7 @@ const presale = ({id}) => {
         </li>
         <li>
           We are having a presale with
-          <a href='https://nftmagic.app/#'> Peanut Butter, </a>
+          <a href='https://peanutbutter.io/'> Peanut Butter, </a>
           on the 24th of January. 6PM UTC
         </li>
         <h4>Listing date is on the 24th of January</h4>
