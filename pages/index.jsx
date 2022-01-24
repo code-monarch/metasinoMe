@@ -46,7 +46,25 @@ export default function Home() {
       <Head>
         <title>Metasino-the first truly decentralized Casino</title>
         <meta name='description' content='Play Casino in the Metaverse' />
-        <link rel='icon' href='/MetasinoLogo.ico' />
+        {/* <link rel='icon' href='/MetasinoLogo.ico' /> */}
+        <link rel='shortcut icon' href='/favicon.ico' />
+        <link
+          rel='apple-touch-icon'
+          sizes='180x180'
+          href='/img/Metasino-logo.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='32x32'
+          href='/img/Metasino-logo.png'
+        />
+        <link
+          rel='icon'
+          type='image/png'
+          sizes='16x16'
+          href='/img/Metasino-logo.png'
+        />
       </Head>
       <div className={hideMenuIcon ? styles.hideIcon : styles.menuIcon}>
         <i className='fas fa-bars fa-lg' onClick={toggleDropdown}></i>
