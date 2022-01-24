@@ -28,7 +28,7 @@ const About = (props) => {
           <a
             className={styles.downloadWhitePaper}
             target='_blank'
-            rel='noopener noreferrer'
+            rel='noreferrer'
             href='https://t.me/MetasinoChat'>
             Join Presale
           </a>
@@ -38,7 +38,7 @@ const About = (props) => {
             <a
               className={styles.join}
               target='_blank'
-              rel='noopener noreferrer'>
+              rel='noreferrer'>
               View Metasino litepaper
             </a>
           </Link>
@@ -61,7 +61,7 @@ const About = (props) => {
                 className={styles.socials}
                 href='https://twitter.com/metasinolive'
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noreferrer'>
                 <i className='fab fa-telegram'></i>
               </a>
             </div>
@@ -70,7 +70,7 @@ const About = (props) => {
                 className={styles.socials}
                 href='https://t.me/metasinochat'
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noreferrer'>
                 <i className='fab fa-twitter'></i>
               </a>
             </div>
@@ -79,7 +79,7 @@ const About = (props) => {
                 className={styles.socials}
                 href='https://www.instagram.com/metasinolive/'
                 target='_blank'
-                rel='noopener noreferrer'>
+                rel='noreferrer'>
                 <i className='fab fa-instagram'></i>
               </a>
             </div>
