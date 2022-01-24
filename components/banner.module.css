@@ -88,6 +88,7 @@
 .sliderText1 {
     animation: slide 5s linear infinite;
 }
+
 .joinPresale {
     /* background: black; */
     background: #cca354;
@@ -100,7 +101,7 @@
     color: whitesmoke;
     font-size: 1.2rem;
     font-family: 'Casino Flat',
-    'Titillium Web';
+        'Titillium Web';
 }
 
 .joinPresale:hover {
@@ -140,10 +141,11 @@
 }
 
 @media only screen and (min-width: 769px) {
-    .metasinoLogo{
+    .metasinoLogo {
         display: none;
     }
 }
+
 @media only screen and (max-width: 480px) {
     .container {
         display: flex;
@@ -164,8 +166,9 @@
         background-size: cover;
         background-origin: border-box;
     }
+
     .col2 {
-      margin-top: 80px ;
+        margin-top: 80px;
     }
 
     .metasinoLogo {
@@ -256,21 +259,23 @@
             margin-top: 0px;
         }
     }
-.joinPresale {
-    background: #cca354;
-    text-decoration: none !important;
-    display: inline-block;
-    padding: 10px 20px;
-    /* margin: 10px 0 10px; */
-    border-radius: 30px;
-    border: 2px solid #cca354;
-    color: whitesmoke;
-    font-size: 1.2rem;
-    font-family: "Casino";
-}
 
-.joinPresale:hover {
-    background: #cca354;
-    color: black;
-}
+    .joinPresale {
+        background: #cca354;
+        text-decoration: none !important;
+        display: inline-block;
+        padding: 10px 20px;
+        /* margin: 10px 0 10px; */
+        border-radius: 30px;
+        border: 2px solid #cca354;
+        color: whitesmoke;
+        font-size: 1.2rem;
+        font-family: 'Casino Flat',
+        'Titillium Web';
+    }
+
+    .joinPresale:hover {
+        background: #cca354;
+        color: black;
+    }
 }

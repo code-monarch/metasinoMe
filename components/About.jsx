@@ -29,7 +29,7 @@ const About = (props) => {
             className={styles.downloadWhitePaper}
             target='_blank'
             rel='noreferrer'
-            href='https://t.me/MetasinoChat'>
+            href='https:nftmagic.app/#'>
             Join Presale
           </a>
         </div>
