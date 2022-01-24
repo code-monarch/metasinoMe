@@ -8,10 +8,22 @@ const presale = ({id}) => {
       <div>
         <img className={styles.presale} src='presale.svg' alt='presale text' />
       </div>
+      <div className={styles.presaleImgCont}>
+        <img
+          className={styles.img}
+          src='/img/presaleImg.jpg'
+          alt='metasino logo'
+        />
+        <img
+          className={styles.img}
+          src='/img/shillcontest.jpg'
+          alt='metasino logo'
+        />
+      </div>
       <ul>
-        {/* <li>
+        <li>
           We are doing an IDO with <a href='https://Degem.io'>Degem</a>.
-        </li> */}
+        </li>
         <li>
           We are having a presale with
           <a href='https://nftmagic.app/#'> Peanut Butter, </a>
@@ -29,18 +41,6 @@ const presale = ({id}) => {
         </a>
       </div>
       <h2>We will be Staking immediately at launch with high APR.</h2>
-      <div className={styles.presaleImgCont}>
-        <img
-          className={styles.img}
-          src='/img/presaleImg.jpg'
-          alt='metasino logo'
-        />
-        <img
-          className={styles.img}
-          src='/img/shillcontest.jpg'
-          alt='metasino logo'
-        />
-      </div>
     </div>
   );
 };
