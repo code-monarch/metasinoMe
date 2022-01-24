@@ -28,6 +28,7 @@ const About = (props) => {
           <a
             className={styles.downloadWhitePaper}
             target='_blank'
+            rel='noopener noreferrer'
             href='https://t.me/MetasinoChat'>
             Join Presale
           </a>
