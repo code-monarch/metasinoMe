@@ -1,0 +1,34 @@
+.container {
+  position: relative;
+  width: 100vw;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menuIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 520px) {
+  .menuIcon {
+    display: inline-block;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    /* max-height: 90px; */
+    cursor: pointer;
+    transition: 0.3s all ease-in;
+    z-index: 5000;
+    color: white;
+    background: transparent;
+  }
+
+  .hideIcon {
+    display: none;
+    pointer-events: none;
+  }
+}

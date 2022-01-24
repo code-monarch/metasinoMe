@@ -1,0 +1,94 @@
+.navMenu {
+    display: none;
+    /* pointer-events: none; */
+}
+
+.navMenuActive {
+    display: none;
+    /* pointer-events: none; */
+}
+
+@media only screen and (max-width: 520px) {
+    .navMenu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100vw;
+        height: 250px;
+        background: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        top: -350px;
+        left: 0;
+        right: 0;
+        padding: 20px 5px;
+        transition: 0.5s;
+        z-index: 50;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        background: 5px solid rgba(0, 0, 0, 0.2);
+        border-radius: 0 0 20px 20px;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        overflow: hidden;
+        z-index: 5000;
+        transition: all 0.2s ease-in;
+    }
+
+    .navMenuActive {
+        background: 5px solid rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100vw;
+        height: 350px;
+        background: rgba(0, 0, 0, 0.2);
+        color: #fff;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 20px 20px;
+        transition: 0.35s;
+        z-index: 50;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border-radius: 0 0 20px 20px;
+        border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+        overflow: hidden;
+        z-index: 5000;
+        transition: all 0.2s ease-in;
+    }
+
+    .navList {
+        padding-top: 35px;
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        /* align-items: flex-end; */
+        padding-left: 10px !important;
+        width: 100%;
+        z-index: 6000;
+    }
+
+    .navItem {
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 15px;
+        font-family: 'Casino',
+        sans-serif;
+        color:#cca354;
+    }
+/* 
+    .a {
+        width: 100%;
+            width: 100%;
+    } */
+
+    .backIcon {
+        font-size: 40px;
+        display: inline-block;
+    }
+
+}

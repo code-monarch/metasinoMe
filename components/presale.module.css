@@ -1,0 +1,163 @@
+.container {
+      position: relative;
+      color: whitesmoke;
+      width: 100vw;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: no-repeat linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+            url("/img/sum.jpg");
+      background-position: center;
+      background-size: contain;
+      background-color: #290931;
+      padding: 0 120px 60px;
+      overflow: hidden;
+}
+
+.presale {
+      padding-top: 50px;
+      margin-bottom: 30px;
+}
+
+.container h2 {
+      color: #cca354 !important;
+      font-family: "Casino", sans-serif;
+      font-size: 1.5rem;
+      line-height: 30px;
+      margin-bottom: 20px;
+      text-align: center;
+}
+
+.container ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+}
+
+.container ul li {
+      text-align: left;
+      width: auto;
+      list-style: none;
+      font-size: 1.4rem;
+}
+
+.container ul li::marker {
+      display: none;
+}
+
+.container li,
+.container h4 {
+      font-size: 1.4rem;
+      font-family: 'Titillium Web',
+            sans-serif;
+      margin: 5px;
+      text-align: left;
+}
+
+.container h4 {
+      margin-top: 20px;
+      /* font-size: 1.2rem; */
+      font-weight: 400;
+}
+
+.container a {
+      text-decoration: underline;
+      color: whitesmoke;
+}
+.joinPresale{
+      background: black;
+      text-decoration: none !important;
+      display: inline-block;
+      padding: 20px 30px;
+      margin: 10px 0 10px;
+      border-radius: 30px;
+      border: 2px solid #cca354;
+      color: whitesmoke;
+      font-size: 1.2rem;
+        font-family: "Casino";
+}
+.joinPresale:hover{
+      background: #cca354;
+      border: 2px solid black;
+      color: black;
+}
+
+.presaleImgCont{
+ width: 80vw;
+ display: flex;
+ justify-content: space-between;
+ margin-top: 20px;
+}
+.img{
+      width: 45%;
+      height: 300px;
+}
+
+@media only screen and (max-width: 480px) {
+      .container {
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+      }
+
+      .presale {
+            padding-top: 0px;
+            margin-bottom: 10px;
+      }
+
+      .container ul {
+            padding-left: 30px;
+            width: 100%;
+      }
+
+      .container ul li {
+            text-align: left;
+            width: auto;
+            list-style: none;
+            font-size: 1.2rem;
+      }
+
+      .container ul li::marker {
+            display: inline;
+            color: #cca354;
+      }
+.container h2 {
+      color: #cca354 !important;
+      font-family: "Casino", sans-serif;
+      font-size: 1.2rem;
+      line-height: 30px;
+      margin-bottom: 20px;
+}
+.joinPresale {
+      background: black;
+      text-decoration: none !important;
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px 0 10px;
+      border-radius: 30px;
+      border: 2px solid #cca354;
+      color: whitesmoke;
+      font-size: 1.2rem;
+      font-family: "Casino";
+}
+      .container .img {
+            width: 100%;
+      }
+      .presaleImgCont {
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 20px;
+      }
+      .img {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 20px;
+      }
+}
