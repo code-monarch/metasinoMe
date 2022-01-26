@@ -111,8 +111,8 @@ const Tokenomics = ({id}) => {
           <p>60,000,000</p>
         </div>
       </div>
-      <h2>8.3% from presale is vested</h2>
-      <h2>Estimated market cap: $395,244</h2>
+      <h3>8.3% from presale is vested</h3>
+      <h3>Estimated market cap: $395,244</h3>
     </section>
   );
 }
