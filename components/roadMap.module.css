@@ -1,8 +1,8 @@
 .container {
-    background: repeat linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url("/img/bitcoin2.jpg");
+    /* background: repeat linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url("/img/bitcoin2.jpg"); */
     background-position: center;
-    background-color: #290931;
+    background-color: #000;
     position: relative;
     display: flex;
     flex-direction: column;

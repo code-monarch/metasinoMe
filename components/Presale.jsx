@@ -11,7 +11,7 @@ const presale = ({id}) => {
       <div className={styles.presaleImgCont}>
         <img
           className={styles.img}
-          src='/img/presaleImg.jpg'
+          src='/img/presale.jpg'
           alt='metasino logo'
         />
         <img
@@ -26,10 +26,10 @@ const presale = ({id}) => {
         </li>
         <li>
           We are having a presale with
-          <a href='https://peanutbutter.io/'> Peanut Butter, </a>
+          PinkSale
           on the 24th of January. 6PM UTC
         </li>
-        <h4>Listing date is on the 24th of January</h4>
+        <h4>Listing date is on the 28th of January 6PM UTC</h4>
       </ul>
       <div>
         <a

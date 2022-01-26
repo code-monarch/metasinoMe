@@ -12,6 +12,9 @@ import Tokenomics from "@/components/Tokenomics";
 
 import styles from "../styles/Home.module.css";
 
+import { Button, Flex, img, HStack, Text } from "@chakra-ui/react";
+import { AddIcon } from "@chakra-ui/icons";
+
 export default function Home() {
   // State for Dropdown menu
   const [dropMenuVisibility, setdropMenuVisibility] = useState(false);
@@ -48,27 +51,31 @@ export default function Home() {
         <meta name='description' content='Play Casino in the Metaverse' />
         {/* <link rel='icon' href='/MetasinoLogo.ico' /> */}
         <link rel='shortcut icon' href='/MetasinoLogo.ico' />
-        {/* <link
-          rel='apple-touch-icon'
-          sizes='180x180'
-           href='/favicon.ico'
-        />
-        <link
-          rel='icon'
-          type='image/png'
-          sizes='32x32'
-           href='/favicon.ico'
-        />
-        <link
-          rel='icon'
-          type='image/png'
-          sizes='16x16'
-           href='/favicon.ico'
-        /> */}
       </Head>
       <div className={hideMenuIcon ? styles.hideIcon : styles.menuIcon}>
         <i className='fas fa-bars fa-lg' onClick={toggleDropdown}></i>
       </div>
+      {/* <Flex
+        bgGradient='linear(black 0%, black 25%, black 0%)'
+        w='100vw'
+        h='80px'
+        px={10}
+        align='center'
+        justify='space-between'>
+        <Flex w={150} h={50}>
+          <img src='/metasino.svg' alt='Metasino' />
+        </Flex>
+        <HStack color='#fff' spacing='24px' mr={10}>
+          <Text mr={3}>About</Text>
+          <Text mr={3}>Roadmap</Text>
+          <Text mr={3}>Tokenomics</Text>
+          <Text mr={3}>Litepaper</Text>
+          <Button color='gray.900' borderRadius='md' leftIcon={<AddIcon />}>
+            Join Presale
+          </Button>
+        </HStack>
+      </Flex> */}
+
       <SideBar
         toggleDropdown={toggleDropdown}
         dropMenuVisibility={dropMenuVisibility}
