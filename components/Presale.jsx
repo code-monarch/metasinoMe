@@ -14,20 +14,20 @@ const presale = ({id}) => {
           src='/img/presale.jpg'
           alt='metasino logo'
         />
-        <img
+        {/* <img
           className={styles.img}
           src='/img/shillcontest.jpg'
           alt='metasino logo'
-        />
+        /> */}
       </div>
       <ul>
-        <li>
+        {/* <li>
           We are doing an IDO with <a href='https://Degem.io'>Degem</a>.
-        </li>
+        </li> */}
         <li>
           We are having a presale with
           PinkSale
-          on the 24th of January. 6PM UTC
+          on the 26th of January. 6PM UTC
         </li>
         <h4>Listing date is on the 28th of January 6PM UTC</h4>
       </ul>
