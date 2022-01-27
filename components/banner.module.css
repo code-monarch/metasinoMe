@@ -94,14 +94,13 @@
     background: #cca354;
     text-decoration: none !important;
     display: inline-block;
-    padding: 20px 30px;
+    padding: 15px 20px;
     margin: 10px 0 10px;
     border-radius: 30px;
     border: 2px solid #cca354;
     color: whitesmoke;
-    font-size: 1.2rem;
-    font-family: 'Casino Flat',
-        'Titillium Web';
+    font-size: 1.1rem;
+    font-family: 'Casino Flat','Titillium Web';
 }
 
 .joinPresale:hover {

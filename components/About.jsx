@@ -109,7 +109,7 @@ const About = (props) => {
           <div data-aos='fade-left'>
             <img
               className={styles.strategicPart}
-              src='/img/peer.png'
+              src='/img/strategicPart.jpg'
               alt='metasino logo'
             />
           </div>

@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import styles from "./banner.module.css";
 
+// import { Button } from "@chakra-ui/react";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 

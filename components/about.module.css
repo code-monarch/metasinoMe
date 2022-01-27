@@ -40,20 +40,17 @@
     line-height: 30px;
 }
 .downloadWhitePaper {
-    background: black;
+    background: #cca354;
     text-decoration: none !important;
     display: inline-block;
-    padding: 20px 30px;
-    margin: 10px 0 10px;
+    padding: 15px 20px;
+    margin: 15px 0 10px;
     border-radius: 30px;
     border: 2px solid #cca354;
     color: whitesmoke;
-    background: #cca354;
-    color: black;
-    font-size: 1.2rem;
-    font-family: 'Casino',
+    font-size: 1.1rem;
+    font-family: 'Casino Flat',
     'Titillium Web';
-    transition: 0.4s;
 }
 
 .downloadWhitePaper:hover {
