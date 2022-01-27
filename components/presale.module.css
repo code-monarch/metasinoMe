@@ -88,12 +88,13 @@
 .presaleImgCont{
  width: 80vw;
  display: flex;
- justify-content: space-between;
+ justify-content: center;
  margin-top: 20px;
 }
 .img{
       width: 45%;
       height: 300px;
+      margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 480px) {
