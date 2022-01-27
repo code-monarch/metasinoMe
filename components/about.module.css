@@ -329,8 +329,8 @@
 
     .partnership img,
     .collaboration img {
-        width: 320px;
-        height: 320px;
+        width: 300px;
+        height: 300px;
         margin-bottom: 30px;
     }
 
@@ -340,7 +340,8 @@
         font-family: 'Casino Flat';
         color: #cca354;
         margin: 0;
-        text-align: center;
+        margin-bottom: 20px;
+        text-align: left;
     }
 
     .collaboration .collaboration_text {
