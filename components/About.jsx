@@ -34,7 +34,7 @@ const About = (props) => {
           </a>
         </div>
         <div>
-          <Link href='https://docs.google.com/document/u/0/d/1ow7uSHcW7hBrQs2LFGCTsk6YU2Xoq6T5Cg_GHxuBEts/mobilebasic'>
+          <Link href='/whitePaper'>
             <a className={styles.join} target='_blank' rel='noreferrer'>
               View Metasino litepaper
             </a>

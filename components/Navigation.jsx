@@ -64,7 +64,7 @@ else ( setBottomBorder( `1px solid rgba(255, 255, 255, 0.2)`) )
           {/*  */}
           <li className={styles.NavigationItem}>
             <a
-              href='https://docs.google.com/document/u/0/d/1ow7uSHcW7hBrQs2LFGCTsk6YU2Xoq6T5Cg_GHxuBEts/mobilebasic'
+              href='/whitepaper'
               target='_blank'
               rel='noopener noreferrer'>
               Litepaper
