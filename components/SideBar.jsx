@@ -29,9 +29,13 @@ const SideBar = ({ toggleDropdown, dropMenuVisibility }) => {
         </li>
         {/*  */}
         <li className={styles.navItem}>
-          <Link href='/#presale' onClick={toggleDropdown}>
+          <a
+            href='https://www.pinksale.finance/#/launchpad/0x4b68273fB474cd4318083D8BeaBFaBC8567695E6?chain=BSC'
+            target='_blank'
+            rel='noreferrer'
+            onClick={toggleDropdown}>
             Presale
-          </Link>
+          </a>
         </li>
         {/*  */}
         <li className={styles.navItem} onClick={toggleDropdown}>

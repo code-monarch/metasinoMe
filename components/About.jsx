@@ -29,7 +29,7 @@ const About = (props) => {
             className={styles.downloadWhitePaper}
             target='_blank'
             rel='noreferrer'
-            href='https://t.me/MetasinoChat'>
+            href='https://www.pinksale.finance/#/launchpad/0x4b68273fB474cd4318083D8BeaBFaBC8567695E6?chain=BSC'>
             Join Presale
           </a>
         </div>
@@ -95,7 +95,7 @@ const About = (props) => {
             <h4>STRATEGIC PARTNERSHIP WITH PARTY FOX NFT</h4>
             <p>
               Party fox are collections of composed 5999 pixelated originally
-              designed fox’s. this is a skilk of foxes that does nothing but
+              designed fox’s. This is a skilk of foxes that does nothing but
               party all day. <br /> <br /> Owning a fox gives you access to
               their future events and shows worldwide where creators, collectors
               and investors will be in attendance. Every fox collector will have
@@ -116,7 +116,7 @@ const About = (props) => {
           <div className={styles.collaboration_text} data-aos='fade-up-right'>
             <h4>COLLABORATION</h4>
             <p>
-              Worlwide research shows that party lovers are mostly gamblers, and
+              Worldwide research shows that party lovers are mostly gamblers, and
               gamblers some party freaks. <br />
               Metasino and Party Fox are in strategic partnership where holders
               of Party Fox NFT will have access to play games in the Metasino
