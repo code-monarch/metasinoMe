@@ -34,7 +34,7 @@ const About = (props) => {
           </a>
         </div>
         <div>
-          <Link href='/MetaSino_Litepaper.pdf'>
+          <Link href='https://docs.google.com/document/u/0/d/1ow7uSHcW7hBrQs2LFGCTsk6YU2Xoq6T5Cg_GHxuBEts/mobilebasic'>
             <a className={styles.join} target='_blank' rel='noreferrer'>
               View Metasino litepaper
             </a>
@@ -116,8 +116,8 @@ const About = (props) => {
           <div className={styles.collaboration_text} data-aos='fade-up-right'>
             <h4>COLLABORATION</h4>
             <p>
-              Worldwide research shows that party lovers are mostly gamblers, and
-              gamblers some party freaks. <br />
+              Worldwide research shows that party lovers are mostly gamblers,
+              and gamblers some party freaks. <br />
               Metasino and Party Fox are in strategic partnership where holders
               of Party Fox NFT will have access to play games in the Metasino
               and $CASINO Token holders will have access to Party Fox events.
