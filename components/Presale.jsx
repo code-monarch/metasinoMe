@@ -25,16 +25,21 @@ const presale = ({id}) => {
           We are doing an IDO with <a href='https://Degem.io'>Degem</a>.
         </li> */}
         <li>
-          We are having a presale with
-          PinkSale
-          on the 26th of January. 6PM UTC
+          We are having a presale with{" "}
+          <a href='https://www.pinksale.finance/#/launchpad/0x4b68273fB474cd4318083D8BeaBFaBC8567695E6?chain=BSC'>
+            PinkSale
+          </a>{" "}
+          <strong>on the 28th of January, 6PM UTC</strong>
         </li>
-        <h4>Listing date is on the 28th of January 6PM UTC</h4>
+        <h4>
+          Listing date is on the{" "}
+          <strong> 1st of Febuary 6PM UTC</strong>
+        </h4>
       </ul>
       <div>
         <a
           className={styles.joinPresale}
-          href='https://t.me/MetasinoChat'
+          href='https://www.pinksale.finance/#/launchpad/0x4b68273fB474cd4318083D8BeaBFaBC8567695E6?chain=BSC'
           target='_blank'
           rel='noreferrer'>
           Join Presale

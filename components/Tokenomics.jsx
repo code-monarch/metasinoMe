@@ -24,11 +24,8 @@ const Tokenomics = ({id}) => {
         src='/tokenomics.svg'
         alt=''
       />
-      <h3>total supply : 2,000,000,000</h3>
-      <h3>Listing price : $0.0008</h3>
-      <h3>Private sale : $0.00032</h3>
-      <h3>Public sale : $0.00053</h3>
-      <VStack marginBottom={10} color='#fff'>
+      <h3>Total supply : 2,000,000,000</h3>
+      {/* <VStack marginBottom={10} color='#fff'>
         <Flex>
           <Text>
             Private sale: 1BNB = 1,212,500 $casino token <br /> 2BNB = 2,425,000
@@ -41,7 +38,7 @@ const Tokenomics = ({id}) => {
             $casino token
           </Text>
         </Flex>
-      </VStack>
+      </VStack> */}
       <div className={styles.row}>
         <div
           className={`${styles.card1} ${
@@ -111,8 +108,8 @@ const Tokenomics = ({id}) => {
           <p>60,000,000</p>
         </div>
       </div>
-      <h3>8.3% from presale is vested</h3>
-      <h3>Estimated market cap: $395,244</h3>
+      {/* <h3>8.3% from presale is vested</h3>
+      <h3>Estimated market cap: $395,244</h3> */}
     </section>
   );
 }
