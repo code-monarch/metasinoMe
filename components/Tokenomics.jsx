@@ -24,7 +24,7 @@ const Tokenomics = ({id}) => {
         src='/tokenomics.svg'
         alt=''
       />
-      <h3>total supply : 3,000,000,000</h3>
+      <h3>total supply : 2,000,000,000</h3>
       <h3>Listing price : $0.0008</h3>
       <h3>Private sale : $0.00032</h3>
       <h3>Public sale : $0.00053</h3>
