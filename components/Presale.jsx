@@ -33,7 +33,7 @@ const presale = ({id}) => {
         </li>
         <h4>
           Listing date is on the{" "}
-          <strong> 1st of Febuary 6PM UTC</strong>
+          <strong> 1st of Febuary, 6PM UTC</strong>
         </h4>
       </ul>
       <div>
