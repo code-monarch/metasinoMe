@@ -60,7 +60,7 @@ const Tokenomics = ({id}) => {
           <h3>Staking/Rewards</h3>
           <p>
             yield-bearing assets enabling you to earn revenue through fees
-            collected from players. Imagine owning a Poker table, Slot machine
+            collected from players.Imagine owning a Poker table, Slot machine
             in Las Vegas
           </p>
         </div>
@@ -109,7 +109,7 @@ const Tokenomics = ({id}) => {
           data-wow-delay='570ms'>
           <h3>Metasino Properties</h3>
           <p>
-            Metasino's Sandbox land coordinates are LAND (-41, -132). and much
+            Metasino's Sandbox land coordinates are LAND (-41, -132).and much
             more to be announced on other metaverses (decantraland,
             polkacity...).
           </p>
