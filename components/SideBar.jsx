@@ -30,7 +30,7 @@ const SideBar = ({ toggleDropdown, dropMenuVisibility }) => {
         {/*  */}
         <li className={styles.navItem}>
           <a
-            href='https://www.pinksale.finance/#/launchpad/0x4b68273fB474cd4318083D8BeaBFaBC8567695E6?chain=BSC'
+            href='https://t.me/MetasinoChat'
             target='_blank'
             rel='noreferrer'
             onClick={toggleDropdown}>

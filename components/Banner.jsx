@@ -76,7 +76,7 @@ function Banner() {
         <div>
           <a
             className={styles.joinPresale}
-            href='https://www.pinksale.finance/#/launchpad/0x4b68273fB474cd4318083D8BeaBFaBC8567695E6?chain=BSC'
+           href='https://t.me/MetasinoChat'
             target='_blank'
             rel='noreferrer'>
             Join Presale

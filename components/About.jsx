@@ -29,7 +29,7 @@ const About = (props) => {
             className={styles.downloadWhitePaper}
             target='_blank'
             rel='noreferrer'
-            href='https://www.pinksale.finance/#/launchpad/0x4b68273fB474cd4318083D8BeaBFaBC8567695E6?chain=BSC'>
+            href='https://t.me/MetasinoChat'>
             Join Presale
           </a>
         </div>
