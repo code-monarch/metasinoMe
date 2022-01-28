@@ -47,7 +47,7 @@ const Tokenomics = ({ id }) => {
             Las Vegas
           </p>
         </div>
-        {/* THIRD CARD */}
+     
         <div
           className={`${styles.card3} ${
             styles.packageCards
