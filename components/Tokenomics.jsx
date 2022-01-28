@@ -78,7 +78,7 @@ const Tokenomics = ({id}) => {
             progresses.
           </p>
         </div>
-        {/* FOURTH CARD */}
+        {/* FOURTH CARD
         <div
           className={`${styles.card4} ${
             styles.packageCards
@@ -87,7 +87,7 @@ const Tokenomics = ({id}) => {
           <h3>Team/Advisors</h3>
           <p> 10%</p>
           <p>200,000,000</p>
-        </div>
+        </div> */}
         {/* FIFTH CARD */}
         <div
           className={`${styles.card5} ${
