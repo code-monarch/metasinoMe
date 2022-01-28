@@ -12,6 +12,20 @@ const About = (props) => {
   const { aboutData, id } = props;
   return (
     <section id={id} className={styles.container}>
+      {/* SANDBOX */}
+      <div className={styles.sandbox}>
+        <div className={styles.sandbox_text} data-aos='fade-down-left'>
+          <h4>
+            Metasino has acquired it’s first of many metaverse land on SANDBOX
+          </h4>
+          <img
+            className={styles.metasinoLogo}
+            src='/img/land.jpg'
+            alt='metasino logo'
+          />
+        </div>
+      </div>
+      {/*  */}
       <div className={styles.about}>
         <div data-aos='fade-left' className={styles.aboutHeading}>
           <img

@@ -39,6 +39,7 @@
     text-align: center;
     line-height: 30px;
 }
+
 .downloadWhitePaper {
     background: #cca354;
     text-decoration: none !important;
@@ -50,13 +51,14 @@
     color: whitesmoke;
     font-size: 1.1rem;
     font-family: 'Casino Flat',
-    'Titillium Web';
+        'Titillium Web';
 }
 
 .downloadWhitePaper:hover {
     background: black;
-     color: whitesmoke;
+    color: whitesmoke;
 }
+
 .join {
     background: black;
     text-decoration: none !important;
@@ -104,7 +106,8 @@
         sans-serif;
     max-width: 700px;
 }
-.socialsSection{
+
+.socialsSection {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -112,21 +115,40 @@
     width: 100%;
     color: white;
 }
-.socialsSection h3{
-     font-size: 30px;
-     font-family: "casino";
-     color: #cca354;
-     margin-bottom: 10px;
-     text-align: center;
+
+.socialsSection h3 {
+    font-size: 30px;
+    font-family: "casino";
+    color: #cca354;
+    margin-bottom: 10px;
+    text-align: center;
 }
-.socialsSection .socialsFlex{
+
+.socialsSection .socialsFlex {
     display: flex;
     justify-content: space-between;
     width: 150px;
 }
+
 .socialsSection .socials {
     font-size: 30px;
 }
+.sandbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sandbox h4 {
+    font-size: 40px;
+    font-family: 'Casino';
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.sandbox img {
+    width: 1000px;
+}
+
 .partnership {
     display: flex !important;
     flex-direction: row !important;
@@ -137,7 +159,7 @@
     height: 300px;
     margin-bottom: 170px;
     color: whitesmoke;
-     line-height: 30px;
+    line-height: 30px;
 }
 
 .collaboration {
@@ -150,7 +172,7 @@
     height: 360px;
     margin-bottom: 30px;
     color: whitesmoke;
-     line-height: 30px;
+    line-height: 30px;
 }
 
 .partnership img {
@@ -169,6 +191,7 @@
     font-family: "Casino";
     color: #cca354;
     margin: 0;
+
 }
 
 .partnership .partnership_text {
@@ -178,6 +201,7 @@
     width: 550px;
     height: 330px;
 }
+
 
 .collaboration .collaboration_text {
     display: flex;
@@ -222,7 +246,7 @@
 @media only screen and (max-width: 480px) {
     .container {
         position: relative;
-        background:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/vr.jpg");
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/img/vr.jpg");
         background-color: black;
         background-position: top;
         background-size: contain;
@@ -247,13 +271,15 @@
         width: 80vw;
         padding: 0 auto;
     }
-.aboutHeading {
-    width: 100%;
-    /* height: 200px; */
-    margin-top: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-}
+
+    .aboutHeading {
+        width: 100%;
+        /* height: 200px; */
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
     .aboutText {
         color: whitesmoke;
         font-family: 'Titillium Web',
@@ -275,7 +301,7 @@
         padding: 50px 30px 50px;
         border: 3px solid #cca354;
         width: 100%;
-        margin:50px auto 10px;
+        margin: 50px auto 10px;
         box-shadow: 0 0 15px rgb(204 163 84 / 50%);
 
     }
@@ -293,6 +319,26 @@
         font-family: 'Titillium Web',
             sans-serif;
         max-width: 700px;
+    }
+
+    .sandbox {
+        background-color: transparent;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center ! important;
+        width: 80vw;
+        padding: auto;
+        color: whitesmoke;
+    }
+
+    .sandbox h4 {
+        font-size: 20px;
+        font-family: 'Casino';
+        color: #fff;
+        margin-bottom: 10px;
+        margin-top: 0;
+        text-align: center;
     }
 
     .partnership,
@@ -315,6 +361,10 @@
         justify-content: flex-start !important;
         width: auto;
         height: 330px;
+    }
+
+    .partnership .partnership_sandbox {
+        margin-top: 20px;
     }
 
     .partnership .partnership_text p,
