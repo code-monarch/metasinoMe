@@ -59,7 +59,6 @@ const Tokenomics = ({id}) => {
           data-wow-delay='470ms'>
           <h3>Staking/Rewards</h3>
           <p>
-            {" "}
             yield-bearing assets enabling you to earn revenue through fees
             collected from players. Imagine owning a Poker table, Slot machine
             in Las Vegas
