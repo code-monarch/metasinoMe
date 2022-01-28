@@ -46,7 +46,6 @@ const Tokenomics = ({id}) => {
           }  ${"wow animate__animated animate__flipInY"}`}>
           <h3>Play to Earn(P2E)</h3>
           <p>
-            {" "}
             virtual casino games ranging from Blackjack, Poker, Big Six wheel,
             Slot machine, Craps, Roulette, Baccarat, Pool etc
           </p>
@@ -60,8 +59,7 @@ const Tokenomics = ({id}) => {
           <h3>Staking/Rewards</h3>
           <p>
             yield-bearing assets enabling you to earn revenue through fees
-            collected from players.Imagine owning a Poker table, Slot machine
-            in Las Vegas
+            collected from players.Imagine owning a Poker table, Slot machine in Las Vegas
           </p>
         </div>
         {/* THIRD CARD */}
@@ -110,7 +108,7 @@ const Tokenomics = ({id}) => {
           <h3>Metasino Properties</h3>
           <p>
             Metasino's Sandbox land coordinates are LAND (-41, -132).and much
-            more to be announced on other metaverses (decantraland,
+            more to be announced on other metaverses (decentraland,
             polkacity...).
           </p>
         </div>
