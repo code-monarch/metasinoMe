@@ -16,10 +16,11 @@ const Tokenomics = ({ id }) => {
   return (
     <section id={id} className={styles.container}>
       <img
-          src='/tokenomics.svg'alt=''
+        src='/tokenomics.svg'
         className={`${
           styles.tokenomics
         } ${"wow animate__animated animate__jackInTheBox"}`}
+        alt=''
       />
       <h3>Total supply : 2,000,000,000</h3>
       <div className={styles.row}>
@@ -28,10 +29,8 @@ const Tokenomics = ({ id }) => {
             styles.packageCards
           }  ${"wow animate__animated animate__flipInY"}`}>
           <h3>Play to Earn(P2E)</h3>
-          <p>
-            virtual casino games ranging from Blackjack, Poker, Big Six wheel,
-            Slot machine, Craps, Roulette, Baccarat, Pool etc
-          </p>
+          <p>35%</p>
+          <p>700,000,000</p>
         </div>
         {/* SECOND CARD */}
         <div
@@ -40,24 +39,18 @@ const Tokenomics = ({ id }) => {
           } ${"wow animate__animated animate__flipInY"}`}
           data-wow-delay='470ms'>
           <h3>Staking/Rewards</h3>
-          <p>
-            yield-bearing assets enabling you to earn revenue through fees
-            collected from players.Imagine owning a Poker table, Slot machine in
-            Las Vegas
-          </p>
+          <p>12%</p>
+          <p>300,000,000</p>
         </div>
-     
+
         <div
           className={`${styles.card3} ${
             styles.packageCards
           }  ${"wow animate__animated animate__flipInY"}`}
           data-wow-delay='370ms'>
-          <h3>Staking</h3>
-          <p>
-            Metasino will have a single-asset staking for passive income
-            generation. Yield farming will come later on as Metasino development
-            progresses.
-          </p>
+          <h3>LP</h3>
+          <p>5%</p>
+          <p>100,000,000</p>
         </div>
 
         <div
@@ -65,11 +58,22 @@ const Tokenomics = ({ id }) => {
             styles.packageCards
           }  ${"wow animate__animated animate__flipInY"}`}
           data-wow-delay='370ms'>
-          <h3>Social life and Gambling</h3>
+          <h3>Team/Advisor</h3>
+          <p>10%</p>
+          <p>200,000,000</p>
+        </div>
+        {/* SIXTH CARD */}
+        <div
+          className={`${styles.card6} ${
+            styles.packageCards
+          }  ${"wow animate__animated animate__flipInY"}`}
+          data-wow-delay='570ms'>
+          <h3>Marketing</h3>
           <p>
-            virtual nightclub packed with stripclub, VIP lounge and a cocktail
-            bar, and a virtual social park where individuals can meet, interact
-            and catch fun using a Virtual Reality (VR) headset.
+            10%
+          </p>
+          <p>
+            200,000,000
           </p>
         </div>
         {/* SIXTH CARD */}
@@ -78,11 +82,26 @@ const Tokenomics = ({ id }) => {
             styles.packageCards
           }  ${"wow animate__animated animate__flipInY"}`}
           data-wow-delay='570ms'>
-          <h3>Metasino Properties</h3>
+          <h3>Presale</h3>
           <p>
-            Metasino Sandbox land coordinates are LAND (-41, -132).and much
-            more to be announced on other metaverses (decentraland,
-            polkacity...).
+            125%0%
+          </p>
+          <p>
+            500,000,000
+          </p>
+        </div>
+        {/* SIXTH CARD */}
+        <div
+          className={`${styles.card6} ${
+            styles.packageCards
+          }  ${"wow animate__animated animate__flipInY"}`}
+          data-wow-delay='570ms'>
+          <h3>Airdropg</h3>
+          <p>
+            3%
+          </p>
+          <p>
+            60,000,000
           </p>
         </div>
       </div>
