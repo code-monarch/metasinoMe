@@ -16,7 +16,7 @@ const About = (props) => {
       <div className={styles.sandbox}>
         <div className={styles.sandbox_text} data-aos='fade-down-left'>
           <h4>
-            Metasino has acquired it's first of many metaverse land on SANDBOX
+            Metasino has acquired its first of many metaverse land on SANDBOX
           </h4>
           <img
             className={styles.land}
