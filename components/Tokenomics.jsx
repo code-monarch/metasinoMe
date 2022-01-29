@@ -84,7 +84,7 @@ const Tokenomics = ({ id }) => {
           data-wow-delay='570ms'>
           <h3>Presale</h3>
           <p>
-            125%0%
+          25%
           </p>
           <p>
             500,000,000
