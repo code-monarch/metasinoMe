@@ -19,7 +19,7 @@ const Tokenomics = ({ id }) => {
         className={`${
           styles.tokenomics
         } ${"wow animate__animated animate__jackInTheBox"}`}
-        src='/tokenomics.svg'
+        src='/tokenomics.svg'alt=''
       />
       <h3>Total supply : 2,000,000,000</h3>
       <div className={styles.row}>
