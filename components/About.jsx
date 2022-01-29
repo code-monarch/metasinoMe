@@ -64,7 +64,7 @@ const About = (props) => {
             to other networks.
           </p>
         </div>
-        <div className={styles.socialsSection}>
+        {/* <div className={styles.socialsSection}>
           <h3>Join the Conversation</h3>
           <div className={styles.socialsFlex}>
             <div>
@@ -95,7 +95,7 @@ const About = (props) => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Strategic Partnership */}
         <div className={styles.partnership}>
           <div data-aos='fade-right'>
