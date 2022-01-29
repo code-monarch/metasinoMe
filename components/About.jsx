@@ -59,7 +59,7 @@ const About = (props) => {
           <h4>WHAT MAKES US SPECIAL</h4>
           <p>
             Metasino harnesses the power of Blockchain to deliver a platform
-            players can fully trust.But it’s the exclusive combination of
+            players can fully trust.But its the exclusive combination of
             features, social elements, design, and unique technical solutions
             that sets Metasino apart from the competition.
           </p>
