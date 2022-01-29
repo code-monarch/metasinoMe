@@ -58,10 +58,10 @@ const About = (props) => {
         <div className={styles.mus}>
           <h4>WHAT MAKES US SPECIAL</h4>
           <p>
-            Metasino provides you with a staking platform where you can stake
-            tokens and NFT and make passive income with high APR. <br />
-            Metasino is a multi-chain network where you will be able to bridge
-            to other networks.
+            Metasino harnesses the power of Blockchain to deliver a platform
+            players can fully trust.But it’s the exclusive combination of
+            features, social elements, design, and unique technical solutions
+            that sets Metasino apart from the competition.
           </p>
         </div>
         {/* <div className={styles.socialsSection}>

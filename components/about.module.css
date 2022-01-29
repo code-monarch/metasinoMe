@@ -88,7 +88,7 @@
     padding: 50px 0 50px;
     border: 3px solid #cca354;
     width: 1000px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     box-shadow: 0 0 15px rgb(204 163 84 / 50%);
 
 }
@@ -303,7 +303,7 @@
         padding: 50px 30px 50px;
         border: 3px solid #cca354;
         width: 100%;
-        margin: 50px auto 10px;
+        margin: 50px auto 20px;
         box-shadow: 0 0 15px rgb(204 163 84 / 50%);
 
     }
