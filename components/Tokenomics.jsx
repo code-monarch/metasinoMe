@@ -16,10 +16,10 @@ const Tokenomics = ({ id }) => {
   return (
     <section id={id} className={styles.container}>
       <img
+          src='/tokenomics.svg'alt=''
         className={`${
           styles.tokenomics
         } ${"wow animate__animated animate__jackInTheBox"}`}
-        src='/tokenomics.svg'alt=''
       />
       <h3>Total supply : 2,000,000,000</h3>
       <div className={styles.row}>
@@ -80,7 +80,7 @@ const Tokenomics = ({ id }) => {
           data-wow-delay='570ms'>
           <h3>Metasino Properties</h3>
           <p>
-            Metasino's Sandbox land coordinates are LAND (-41, -132).and much
+            Metasino Sandbox land coordinates are LAND (-41, -132).and much
             more to be announced on other metaverses (decentraland,
             polkacity...).
           </p>
