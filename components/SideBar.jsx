@@ -30,7 +30,7 @@ const SideBar = ({ toggleDropdown, dropMenuVisibility }) => {
         {/*  */}
         <li className={styles.navItem}>
           <a
-            href='https://www.pinksale.finance/#/launchpad/0x01FC371394E2C2552C4920CF0521611A7B1592877?chain=BSC'
+            href='https://www.pinksale.finance/#/launchpad/0x01FC371394E2C552C4920CF0521611A7b1592877?chain=BSC'
             target='_blank'
             rel='noreferrer'
             onClick={toggleDropdown}>
