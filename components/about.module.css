@@ -13,7 +13,6 @@
     margin-top: -80px;
     padding-top: 100px;
 }
-
 .about {
     display: flex;
     flex-direction: column;
@@ -143,7 +142,7 @@
     font-size: 30px;
     /* width: 600px; */
     font-family: 'Casino';
-    color: #fff;
+    color:#cca354;
     text-align: center;
     margin-bottom: 50px;
 }
@@ -265,6 +264,7 @@
         padding-bottom: 60px;
     }
 
+
     .about {
         display: flex;
         flex-direction: column;
@@ -327,20 +327,24 @@
         background-color: transparent;
         display: flex !important;
         flex-direction: column !important;
-        justify-content: center;
+        justify-content: center !important;
         align-items: center ! important;
         width: 80vw;
         padding: auto;
+        margin-top: 30px;
         color: whitesmoke;
     }
 
     .sandbox h4 {
         font-size: 20px;
         font-family: 'Casino';
-        color: #fff;
+        color: #cca354;
         margin-bottom: 10px;
         margin-top: 0;
         text-align: center;
+    }
+    .sandbox img {
+        width: 80%;
     }
 
     .partnership,
@@ -365,7 +369,7 @@
         height: 330px;
     }
 
-    .partnership .partnership_sandbox {
+    .partnership .sandbox {
         margin-top: 20px;
     }
 

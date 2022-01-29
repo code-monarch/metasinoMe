@@ -19,7 +19,7 @@ const About = (props) => {
             Metasino has acquired it's first of many metaverse land on SANDBOX
           </h4>
           <img
-            className={styles.metasinoLogo}
+            className={styles.land}
             src='/img/land.jpg'
             alt='metasino logo'
           />
