@@ -136,7 +136,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1200px;
+    width: 800px;
 }
 .sandbox h4 {
     font-size: 30px;
@@ -147,7 +147,7 @@
     margin-bottom: 50px;
 }
 .sandbox img {
-    width: 1000px;
+    width: 100%;
 }
 
 .partnership {
