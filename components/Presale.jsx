@@ -39,7 +39,7 @@ const presale = ({id}) => {
       <div>
         <a
           className={styles.joinPresale}
-          href='https://www.pinksale.finance/#/launchpad/0x4b68273fB474cd4318083D8BeaBFaBC8567695E6?chain=BSC'
+          href='https://www.pinksale.finance/#/launchpad/0x01FC371394E2C2552C4920CF052161147B1592877?chain=BSC'
           target='_blank'
           rel='noreferrer'>
           Join Presale
