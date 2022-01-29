@@ -32,14 +32,13 @@ const presale = ({id}) => {
           <strong>on the 28th of January, 6PM UTC</strong>
         </li>
         <h4>
-          Listing date is on the{" "}
-          <strong> 1st of Febuary, 6PM UTC</strong>
+          Listing date is on the <strong> 1st of Febuary, 6PM UTC</strong>
         </h4>
       </ul>
       <div>
         <a
           className={styles.joinPresale}
-          href='https://www.pinksale.finance/#/launchpad/0x01FC371394E2C2552C4920CF052161147B1592877?chain=BSC'
+          href='https://www.pinksale.finance/#/launchpad/0x01FC371394E2C2552C4920CF0521611A7B1592877?chain=BSC'
           target='_blank'
           rel='noreferrer'>
           Join Presale
