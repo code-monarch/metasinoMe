@@ -57,3 +57,28 @@
         width: 80vw;
     }
 }
+@media only screen and (max-width: 768px) {
+        .container {
+            padding-bottom: 0;
+            padding-top: 0;
+        }
+
+        .tokenomics {
+            width: 80vw;
+            /* height: 500px; */
+            z-index: 5;
+        }
+
+        .tokenomicstxt {
+            position: absolute;
+            font-size: 100px;
+            color: rgba(98, 5, 155, 0.35);
+            top: -100px;
+            left: 0;
+        }
+
+        .container img {
+            z-index: 5;
+            width: 80vw;
+        }
+}

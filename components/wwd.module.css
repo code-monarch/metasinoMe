@@ -48,3 +48,25 @@
         color: #62059B;
     }
 }
+@media only screen and (max-width: 768px) {
+        .flex {
+            display: flex;
+            flex-direction: column !important;
+            justify-content: center;
+            align-items: center;
+            width: 80vw;
+            color: #62059B;
+            margin-bottom: 30px;
+        }
+
+        .left,
+        .right {
+            width: 80vw;
+        }
+
+        .flex p {
+            font-size: 18px;
+            line-height: normal;
+            color: #62059B;
+        }
+}

@@ -17,10 +17,8 @@
 }
 
 .roadmap {
-    position: absolute;
-    font-size: 250px;
-    color: rgba(98, 5, 155, 0.35);
-    top: -200px;
+    font-size: 30px;
+    color: rgb(98, 5, 155);
 }
 
 .roadmapHeading {
@@ -100,12 +98,10 @@
         width: 80% !important;
         text-align: center;
     }
-    .roadmap {
-        position: absolute;
-        font-size: 80px;
-        color: rgba(98, 5, 155, 0.35);
-        top: -50px;
-    }
+       .roadmap {
+           font-size: 36px;
+           color: rgb(98, 5, 155);
+       }
 
     .roadmapHeading {
         margin: 50px 0 50px;
@@ -167,7 +163,7 @@
     }
 }
 
-@media only screen and (max-width: 785px) {
+@media only screen and (max-width: 768px) {
     .container {
         background-position: center;
         background-size: contain;
@@ -181,7 +177,11 @@
         height: auto;
         overflow: hidden;
     }
-
+.colalign{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
     .col {
         position: static !important;
         display: flex;
@@ -247,7 +247,7 @@
     }
 
     .phase3cont {
-        top: auto !important;
+        top: 0 !important;
         left: auto !important;
     }
 }

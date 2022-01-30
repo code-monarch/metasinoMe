@@ -20,7 +20,7 @@ const RoadMap = ({id}) => {
           />
         </div>
         {/* PHASE 1 */}
-        <div>
+        <div className={styles.colalign}>
           <img
             className={`${styles.phase1} ${
               styles.dates
@@ -38,7 +38,7 @@ const RoadMap = ({id}) => {
           />
         </div>
         {/* PHASE 2 */}
-        <div>
+        <div className={styles.colalign}>
           <img
             className={`${styles.phase2} ${
               styles.dates
@@ -55,7 +55,8 @@ const RoadMap = ({id}) => {
             alt='phase 2 cont'
           />
         </div>
-        <div>
+        {/* PHASE 3 */}
+        <div className={styles.colalign}>
           <img
             className={`${styles.phase3} ${
               styles.dates

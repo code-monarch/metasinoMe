@@ -32,3 +32,22 @@
     pointer-events: none;
   }
 }
+@media only screen and (max-width: 768px) {
+  .menuIcon {
+    display: inline-block;
+    position: fixed;
+    top: 60px;
+    left: 60px;
+    /* max-height: 90px; */
+    cursor: pointer;
+    transition: 0.3s all ease-in;
+    z-index: 5000;
+    color:rgba(204, 163, 84, 1);
+    background: transparent;
+  }
+
+  .hideIcon {
+    display: none;
+    pointer-events: none;
+  }
+}
