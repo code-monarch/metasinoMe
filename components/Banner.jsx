@@ -28,7 +28,6 @@ function Banner() {
               className={styles.metasino}
               src='/metasino.svg'
               alt=''
-              srcset=''
             />
           </div>
           {/* <h2>METASINO</h2> */}
@@ -70,7 +69,7 @@ function Banner() {
           </div>
         </div>
         <div className={styles.section2}>
-          <video loop muted autoplay height={350}>
+          <video loop muted autoPlay height={350}>
             <source src='/cube.mp4' type='video/mp4' />
             Sorry, your browser doesn't support embedded videos.
           </video>
@@ -79,13 +78,11 @@ function Banner() {
           className={styles.firstdice}
           src='/img/Dice.png'
           alt=''
-          srcset=''
         />
         <img
           className={styles.seconddice}
           src='/img/Dice.png'
           alt=''
-          srcset=''
         />
       </div>
       {/* <div className={styles.col2}>

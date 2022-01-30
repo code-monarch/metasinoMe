@@ -15,7 +15,7 @@ const About = ({id}) => {
       <section id={id} className={styles.container}>
         <div className={styles.sandbox}>
           <div className={styles.rightside}>
-            <img src='/img/land.jpg' alt='' srcset='' />
+            <img src='/img/land.jpg' alt=''/>
           </div>
           <div className={styles.leftside}>
             <h3>
@@ -58,7 +58,7 @@ const About = ({id}) => {
             </div>
           </div>
           <div className={styles.rightside}>
-            <img src='/img/Metasino-logo.png' alt='' srcset='' />
+            <img src='/img/Metasino-logo.png' alt=''/>
           </div>
         </div>
         {/* PRESALE */}
