@@ -1,77 +1,76 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
 import styles from "./navigation.module.css";
 
 const Navigation = () => {
-  // CHANGE NAVBAR TRANSPARENCY ON SCROLL
-  const [clientWindowHeight, setClientWindowHeight] = useState("");
 
-  const [backgroundTransparacy, setBackgroundTransparacy] = useState(0);
-  const [padding, setPadding] = useState(30);
-  const [boxShadow, setBoxShadow] = useState(0);
-  const [bottomBorder, setBottomBorder] = useState(0);
+  // useEffect(() => {
+  //   let backgroundTransparacyVar = clientWindowHeight / 600;
+  //   let bottomBorderVar = 0;
 
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  });
-
-  const handleScroll = () => {
-    setClientWindowHeight(window.scrollY);
-  };
-
-  useEffect(() => {
-    let backgroundTransparacyVar = clientWindowHeight / 600;
-    let bottomBorderVar = 0;
-
-    if (backgroundTransparacyVar < 1) {
-      let paddingVar = 30 - backgroundTransparacyVar * 20;
-      let boxShadowVar = backgroundTransparacyVar * 0.1;
-      setBackgroundTransparacy(backgroundTransparacyVar);
-      setPadding(paddingVar);
-      setBoxShadow(boxShadowVar);
-      setBottomBorder(bottomBorderVar);
-    }
-else ( setBottomBorder( `1px solid rgba(255, 255, 255, 0.2)`) )
-},[clientWindowHeight]);
+  //   if (backgroundTransparacyVar < 1) {
+  //     let paddingVar = 30 - backgroundTransparacyVar * 20;
+  //     let boxShadowVar = backgroundTransparacyVar * 0.1;
+  //     setBackgroundTransparacy(backgroundTransparacyVar);
+  //     setPadding(paddingVar);
+  //     setBoxShadow(boxShadowVar);
+  //     setBottomBorder(bottomBorderVar);
+  //   } else setBottomBorder(`1px solid rgba(255, 255, 255, 0.2)`);
+  // }, [clientWindowHeight]);
 
   return (
     <>
-      <nav
-        className={`${styles.navbar}`}
-        style={{
-          background: `rgba(0, 0, 0, ${backgroundTransparacy})`,
-          padding: `${padding}px 0px`,
-          boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
-          borderBottom: bottomBorder,
-        }}>
-        <ul className={styles.NavigationList}>
+      <header className={styles.header}>
+        <nav className={`${styles.navbar}`}>
+          <div>
+            <img className={styles.img} src='/metasino.svg' alt='logo' />
+          </div>
           {/*  */}
-          <li className={styles.NavigationItem}>
-            <Link href='/#about'>About</Link>
-          </li>
-          {/*  */}
-          <li className={styles.NavigationItem}>
-            <Link href='/#roadmap'>Roadmap</Link>
-          </li>
-          {/*  */}
-          <img className={styles.img} src='img/Metasino-logo.png' alt='logo' />
-          {/*  */}
-          <li className={styles.NavigationItem}>
-            <Link href='/#tokenomics'>Tokenomics</Link>
-          </li>
-          {/*  */}
-          {/*  */}
-          <li className={styles.NavigationItem}>
-            <a
-              href='/whitepaper.pdf'
-              target='_blank'
-              rel='noopener noreferrer'>
-              Litepaper
-            </a>
-          </li>
-        </ul>
-      </nav>
+          <ul className={styles.NavigationList}>
+            {/*  */}
+            <li className={styles.NavigationItem}>
+              <a
+                href='https://www.pinksale.finance/#/launchpad/0x01FC371394E2C552C4920CF0521611A7b1592877?chain=BSC'
+                target='_blank'
+                rel='noreferrer'>
+                Presale
+              </a>
+            </li>
+            {/*  */}
+            <li className={styles.NavigationItem}>
+              <Link href='/#roadmap'>Roadmap</Link>
+            </li>
+            <li className={styles.NavigationItem}>
+              <Link href='/#tokenomics'>Tokenomics</Link>
+            </li>
+            {/*  */}
+            {/*  */}
+            <li className={styles.NavigationItem}>
+              <a
+                href='/whitepaper.pdf'
+                target='_blank'
+                rel='noopener noreferrer'>
+                Whitepaper
+              </a>
+            </li>
+            <div className={styles.telegram}>
+              <a href='t.me/MetasinoChat' target='_blank' rel='noreferrer'>
+                <i className='fab fa-telegram fa-lg'></i>
+              </a>
+            </div>
+            <div className={styles.facebook}>
+              <a href=''>
+                <i className='fab fa-facebook fa-lg'></i>
+              </a>
+            </div>
+            <div className={styles.instagram}>
+              <a href=''>
+                <i className='fab fa-instagram fa-lg'></i>
+              </a>
+            </div>
+          </ul>
+        </nav>
+      </header>
     </>
   );
 };

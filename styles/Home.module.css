@@ -23,7 +23,7 @@
     cursor: pointer;
     transition: 0.3s all ease-in;
     z-index: 5000;
-    color: white;
+    color:rgba(204, 163, 84, 1);
     background: transparent;
   }
 

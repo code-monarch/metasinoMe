@@ -27,7 +27,7 @@
         z-index: 50;
         -webkit-backdrop-filter: blur(10px);
         backdrop-filter: blur(10px);
-        background: 5px solid rgba(0, 0, 0, 0.2);
+        /* background: 5px solid rgba(0, 0, 0, 0.2); */
         border-radius: 0 0 20px 20px;
         border-bottom: 3px solid rgba(255, 255, 255, 0.2);
         overflow: hidden;
@@ -44,7 +44,7 @@
         position: fixed;
         width: 100vw;
         height: 350px;
-        background: rgba(0, 0, 0, 0.2);
+        background: rgba(0, 0, 0, 0.5);
         color: #fff;
         top: 0;
         left: 0;
@@ -76,9 +76,10 @@
         margin-bottom: 20px;
         width: 100%;
         font-size: 15px;
-        font-family: 'Casino',
-        sans-serif;
-        color:#cca354;
+    font-family: 'Inter',
+    sans-serif;
+        color:#fff;
+        text-transform: uppercase;
     }
 /* 
     .a {

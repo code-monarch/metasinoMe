@@ -11,20 +11,10 @@ class MyDocument extends Document {
             href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'
           />
           {/* PRELOAD FONT FILES */}
-          <link rel='preload' href='/fonts/Lato-Regular.ttf' as='font' />
-          <link rel='preload' href='/fonts/Casino.ttf' as='font' />
-          <link rel='stylesheet' href='/fonts/CasinoFlat.ttf' as='font' />
-          <link rel='preload' href='/fonts/CasinoShadow.ttf' as='font' />
-
-          {/* IMPORT POPPINS FONT FROM GOOGLE FONT */}
           <link rel='preconnect' href='https://fonts.googleapis.com' />
-          <link rel='preconnect' href='https://fonts.gstatic.com' />
+          <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
           <link
-            href='https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap'
-            rel='stylesheet'
-          />
-          <link
-            href='https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap'
+            href='https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap'
             rel='stylesheet'
           />
           {/* FONT AWESOME */}

@@ -5,145 +5,147 @@ import styles from "./about.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const About = (props) => {
+const About = ({id}) => {
   useEffect(() => {
     AOS.init();
   }, []);
-  const { aboutData, id } = props;
+  // const { aboutData, id } = props;
   return (
-    <section id={id} className={styles.container}>
-      {/* SANDBOX */}
-      <div className={styles.sandbox}>
-        <div className={styles.sandbox_text} data-aos='fade-down-left'>
-          <h4>
-            Metasino has acquired its first of many metaverse land on SANDBOX
-          </h4>
-          <img
-            className={styles.land}
-            src='/img/land.jpg'
-            alt='metasino logo'
-          />
+    <>
+      <section id={id} className={styles.container}>
+        <div className={styles.sandbox}>
+          <div className={styles.rightside}>
+            <img src='/img/land.jpg' alt='' srcset='' />
+          </div>
+          <div className={styles.leftside}>
+            <h3>
+              Metasino has acquired its first of many metaverse land on SANDBOX
+            </h3>
+            <h3 className={styles.coordinate}>sandbox land coordinates</h3>
+            <h4 className={styles.landcoor}>lAND (-41, -132)</h4>
+          </div>
         </div>
-      </div>
-      {/*  */}
-      <div className={styles.about}>
-        <div data-aos='fade-left' className={styles.aboutHeading}>
-          <img
-            className={styles.aboutHeading}
-            src='/aboutHeading.svg'
-            alt='about heading'
-          />
-        </div>
-        <div
-          dangerouslySetInnerHTML={{ __html: aboutData }}
-          className={styles.aboutText}
-          data-aos='zoom-in-up'></div>
-        <div>
-          <a
-            className={styles.downloadWhitePaper}
-            target='_blank'
-            rel='noreferrer'
-            href='https://www.pinksale.finance/#/launchpad/0x01FC371394E2C552C4920CF0521611A7b1592877?chain=BSC'>
-            Join Presale
-          </a>
-        </div>
-        <div>
-          <Link href='/whitepaper.pdf'>
-            <a className={styles.join} target='_blank' rel='noreferrer'>
-              View Metasino litepaper
-            </a>
-          </Link>
-        </div>
-
-        <div className={styles.mus}>
-          <h4>WHAT MAKES US SPECIAL</h4>
-          <p>
-            Metasino harnesses the power of Blockchain to deliver a platform
-            players can fully trust.But its the exclusive combination of
-            features, social elements, design, and unique technical solutions
-            that sets Metasino apart from the competition.
-          </p>
-        </div>
-        {/* <div className={styles.socialsSection}>
-          <h3>Join the Conversation</h3>
-          <div className={styles.socialsFlex}>
-            <div>
-              <a
-                className={styles.socials}
-                href='https://t.me/MetasinoChat'
-                target='_blank'
-                rel='noreferrer'>
-                <i className='fab fa-telegram'></i>
-              </a>
-            </div>
-            <div>
-              <a
-                className={styles.socials}
-                href='https://t.me/metasinochat'
-                target='_blank'
-                rel='noreferrer'>
-                <i className='fab fa-twitter'></i>
-              </a>
-            </div>
-            <div>
-              <a
-                className={styles.socials}
-                href='https://www.instagram.com/metasinolive/'
-                target='_blank'
-                rel='noreferrer'>
-                <i className='fab fa-instagram'></i>
-              </a>
+        <div className={styles.sandbox}>
+          <div className={styles.leftside}>
+            <h4 className={styles.leftsideh4}>More than just an idea</h4>
+            <h3 className={styles.leftsideh3}>CASINO IN THE METAVERSE</h3>
+            <p>
+              Metasino is a decentralized virtual casino built on the blockchain
+              to be played in the Metaverse using the Metasino native token -
+              $CASINO. Participants all around the world will come to Metasino
+              to play different casino games and win redeemable rewards.
+            </p>
+            <p>
+              Metasino implores creative game theory algorithms to ensure that
+              all participants in metasino will abide by the community
+              governance accordingly. Our unique staking and the locking
+              mechanism will ensure all metasino player’s worth are valued
+              properly. This ‘true worth’ will ensure decentralization is
+              maintained and whales do not interfere.
+            </p>
+            <div className={styles.buttonGrp}>
+              <button className={styles.join}>
+                <Link href='/whitepaper.pdf'>
+                <a target='_blank'
+                    rel='noopener noreferrer'>
+                  Join Us
+                </a>
+                </Link>
+              </button>
+              <button className={styles.whitepaper}>
+                <a href=''> Whitepaper</a>
+              </button>
             </div>
           </div>
+          <div className={styles.rightside}>
+            <img src='/img/Metasino-logo.png' alt='' srcset='' />
+          </div>
+        </div>
+        {/* PRESALE */}
+        {/* <div className={styles.presale}>
+          <img src="/img/presale.jpg" alt="" />
         </div> */}
-        {/* Strategic Partnership */}
+        <div className={styles.wwdcontainer}>
+          <div className={styles.wwd}>
+            <div className={styles.card}>
+              <h3>Play-to-Earn</h3>
+              <h4>
+                virtual casino games ranging from Blackjack, Poker, Big Six
+                wheel, Slot machine, Craps, Roulette, Baccarat, Pool etc
+              </h4>
+            </div>
+            <div className={styles.card}>
+              <h3>Income-Generating NFTs</h3>
+              <h4>
+                yield-bearing assets enabling you to earn revenue through fees
+                collected from players. Imagine owning a Poker table, Slot
+                machine in Las Vegas
+              </h4>
+            </div>
+            <div className={styles.card}>
+              <h3>Staking</h3>
+              <h4>
+                Metasino will have a single-asset staking for passive income
+                generation. Yield farming will come later on as Metasino
+                development progresses.
+              </h4>
+            </div>
+            <div className={styles.card}>
+              <h3>Social life & Gambling</h3>
+              <h4>
+                virtual nightclub packed with stripclub, VIP lounge and a
+                cocktail bar, and a virtual social park where individuals can
+                meet, interact and catch fun using a Virtual Reality (VR)
+                headset.
+              </h4>
+            </div>
+            <div className={styles.card}>
+              <h3>Metasino Properties</h3>
+              <h4>
+                Metasino's Sandbox land coordinates are LAND (-41, -132).and
+                much more to be announced on other metaverses (decantraland,
+                polkacity...).
+              </h4>
+            </div>
+          </div>
+        </div>
+        {/* PARTNERSHIP */}
         <div className={styles.partnership}>
-          <div data-aos='fade-right'>
-            <img
-              className={styles.metasinoLogo}
-              src='/img/Metasino-logo.png'
-              alt='metasino logo'
-            />
-          </div>
-          <div className={styles.partnership_text} data-aos='fade-down-left'>
-            <h4>STRATEGIC PARTNERSHIP WITH PARTY FOX NFT</h4>
-            <p>
-              Party fox are collections of composed 5999 pixelated originally
-              designed fox’s. This is a skilk of foxes that does nothing but
-              party all day. <br /> <br /> Owning a fox gives you access to
-              their future events and shows worldwide where creators, collectors
-              and investors will be in attendance. Every fox collector will have
-              access to their metaverse.
-            </p>
-          </div>
-        </div>
-        {/*  */}
-        {/* COLLABORATION */}
-        <div className={styles.collaboration}>
-          <div data-aos='fade-left'>
-            <img
-              className={styles.strategicPart}
-              src='/img/strategicPart.jpg'
-              alt='metasino logo'
-            />
-          </div>
-          <div className={styles.collaboration_text} data-aos='fade-up-right'>
-            <h4>COLLABORATION</h4>
-            <p>
-              Worldwide research shows that party lovers are mostly gamblers,
-              and gamblers some party freaks. <br />
-              Metasino and Party Fox are in strategic partnership where holders
-              of Party Fox NFT will have access to play games in the Metasino
-              and $CASINO Token holders will have access to Party Fox events.
-              Party Fox NFT can be swapped for CASINO Tokens, players can earn
-              Party Fox NFTs as reward for games played in the Metasino.
-              Additional CASINO can be staked to earn Party Fox NFTs as reward.
-            </p>
+          <div className={styles.partrow}>
+            <div className={styles.part1}>
+              <img
+                className={styles.part1img}
+                src='/img/strategicPart.jpg'
+                alt=''
+              />
+            </div>
+            <div className={styles.part2}>
+              <h3>PARTY FOX PARTNERSHIP</h3>
+              <p>
+                party fox are collections of composed 5999 pixelated originally
+                designed fox’s. this is a skilk of foxes that does nothing but
+                party all day.
+              </p>
+              <p>
+                owning a fox gives you access to their future events and shows
+                worldwide where creators, collectors and investors will be in
+                attendance. every fox collector will have access to their
+                metaverse.
+              </p>
+              <p>
+                With fox NFT, one would have access to play games in metasino,
+                and with $casino you have access to party fox parties and
+                events.
+              </p>
+              <p>
+                you can swap fox for $casino, or earn fox as reward for games
+                played in casino. you will be able to stake $casino to earn fox.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      {/*  */}
-    </section>
+      </section>
+    </>
   );
 };
 

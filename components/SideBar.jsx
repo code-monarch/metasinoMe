@@ -41,7 +41,7 @@ const SideBar = ({ toggleDropdown, dropMenuVisibility }) => {
         <li className={styles.navItem} onClick={toggleDropdown}>
           <Link href='/whitepaper.pdf'>
             <a className={styles.a} target='_blank' rel='noopener noreferrer'>
-              Litepaper
+              Whitepaper
             </a>
           </Link>
         </li>

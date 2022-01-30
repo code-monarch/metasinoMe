@@ -11,17 +11,11 @@ const RoadMap = ({id}) => {
   return (
     <div id={id} className={styles.container}>
       <div className={styles.col}>
-        <div data-aos='fade-down'>
-          <img
-            className={styles.roadmapHeading}
-            src='roadmapHeading.svg'
-            alt='Roadmap heading Text'
-          />
-        </div>
+        <h1 className={styles.roadmap}>ROADMAP</h1>
         <div>
           <img
             className={styles.roadmapLane}
-            src='roadmapLane.svg'
+            src='/roadmapLane.svg'
             alt='Roadmap lane'
           />
         </div>

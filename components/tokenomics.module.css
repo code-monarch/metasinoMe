@@ -1,137 +1,59 @@
 .container {
-    background:#000;
-    background-position: center;
-    background-size: contain;
+    position: relative;
+    background: #fff;
     height: auto;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-items: center;
     padding: 0px 0;
+    padding-bottom: 70px;
+    padding-top: 40px;
     margin-left: auto;
     margin-right: auto;
+    z-index: 5;
+    overflow: hidden;
 }
 
 .tokenomics {
-    margin: 50px 0 50px;
-    background: transparent;
+    width: 1200px;
+    z-index: 5;
 }
 
-.row {
-    max-width: 1200px;
-    height: 100%;
-    /* background-color:white; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 auto;
-
+.container img {
+    z-index: 5;
 }
 
-.row .packageCards {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-items: center;
-    color: white;
-    border: 3px solid rgba(255, 255, 255, 0.5);
-    /* background: no-repeat linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url("/img/black2.jpg"); */
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-position: center;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-    width: 250px;
-    height: 390px;
-    margin-right: 45px;
-    margin-bottom: 40px;
-    box-shadow: 0 0 15px rgb(204 163 84 / 50%);
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-
-.row .packageCards h3 {
-    background-color: #000;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    margin-top: 0;
-    color: #cca354;
-    font-size: 22px;
-    font-family: "Casino", sans-serif;
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    padding-top: 35px;
-}
-
-.row .packageCards p {
-    color: #fff;
-    font-size: 16px;
-    font-family: sans-serif;
-    text-align: center;
-}
-
-.container h2 {
-    color: whitesmoke !important;
-    font-family: "Casino", sans-serif;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-.container h3 {
-    color: whitesmoke !important;
-    font-family: 'Casino','Titillium Web';
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-.container .sale {
-    display: flex;
-    flex-direction: column;
-    color: whitesmoke !important;
-    font-family: 'Titillium Web',
-    sans-serif;
-    font-size: 18px !important;
-    margin-bottom: 20px;
+.tokenomicstxt {
+    position: absolute;
+    font-size: 250px;
+    color: rgba(98, 5, 155, 0.35);
+    top: -250px;
+    left: 0;
 }
 
 @media only screen and (max-width: 480px) {
     .container {
-        background: repeat linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-            url("/img/RMBg.jpg");
-        background-position: center;
-
-        height: auto;
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-items: center;
-        padding: 0px 0;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .row .packageCards {
-        margin-right: 0;
-        animation-delay: 0;
+        padding-bottom: 0;
+            padding-top: 0;
     }
 
     .tokenomics {
-        margin: 0px 0 50px;
+        width: 80vw;
+        /* height: 500px; */
+        z-index: 5;
     }
-    .container h3 {
-        color: whitesmoke !important;
-        font-family: 'Casino', 'Titillium Web';
-        font-size: 30px;
-        margin-bottom: 20px;
-        text-align: center;
+
+    .tokenomicstxt {
+        position: absolute;
+        font-size: 100px;
+        color: rgba(98, 5, 155, 0.35);
+        top: -100px;
+        left: 0;
+    }
+
+    .container img {
+        z-index: 5;
+        width: 80vw;
     }
 }
