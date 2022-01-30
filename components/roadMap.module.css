@@ -76,91 +76,118 @@
 }
 
 @media only screen and (max-width: 480px) {
-    .container {
-        background-position: center;
-        background-size: contain;
-        background-color: #fff;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100vw;
-        height: auto;
-        overflow: hidden;
-    }
+     .container {
+         background-position: center;
+         background-size: contain;
+         background-color: #fff;
+         position: relative;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         /* justify-content: center; */
+         width: 100vw;
+         height: auto;
+         overflow: hidden;
+     }
 
-    .col {
-        position: static !important;
-        display: flex;
-        flex-direction: column !important;
-        justify-content: space-between !important;
-        align-items: center !important;
-        width: 80% !important;
-        text-align: center;
-    }
-       .roadmap {
-           font-size: 36px;
-           color: rgb(98, 5, 155);
-       }
+     .colaflex {
+         display: flex !important;
+         flex-direction: column !important;
+         align-items: center;
+         width: 100vw;
+     }
 
-    .roadmapHeading {
-        margin: 50px 0 50px;
-        width: 100%;
-    }
+     .colalign {
+         width: 75vw;
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row !important;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         padding: 0 auto;
+         padding: 0px 0;
+         margin-left: auto;
+         margin-right: auto;
+     }
 
-    .roadmapLane {
-        position: absolute !important;
-        display: none !important;
-        height: 0 !important;
-        width: 0 !important;
-        padding-bottom: 0 !important;
-    }
+     .col {
+         position: relative !important;
+         display: flex;
+         flex-direction: column !important;
+         justify-content: space-between !important;
+         align-items: center !important;
+         width: 100vw !important;
+         text-align: center;
+         padding: 0 auto;
+     }
 
-    .dates {
-        margin-bottom: 10px !important;
-    }
+     .roadmapHeading {
+         margin: 50px 0 50px;
+         width: 100%;
+     }
 
-    .dates,
-    .phaseCont {
-        position: relative;
-        cursor: auto;
-        width: 300px;
-        margin-bottom: 30px;
-        text-align: center;
-    }
+     .roadmapLane {
+         position: absolute !important;
+         display: none !important;
+         height: 0 !important;
+         width: 0 !important;
+         padding-bottom: 0 !important;
+     }
 
-    .phase1 {
-        top: auto !important;
-        left: auto !important;
-    }
+     .dates {
+         margin-bottom: 10px !important;
+     }
 
-    .phase1cont {
-        top: auto !important;
-        left: auto !important;
-    }
+     .dates,
+     .phaseCont {
+         position: relative !important;
+         cursor: auto;
+         width: 300px;
+         margin-bottom: 30px;
+         text-align: center;
+     }
 
-    .phase2 {
-        top: auto !important;
-        left: 0 !important;
-        /* transform: translateX(-50%) !important; */
+     .phase1 {
+         position: relative !important;
+         top: auto !important;
+         left: auto !important;
+     }
 
-    }
+     .phase1cont {
+         position: relative !important;
+         top: auto !important;
+         left: auto !important;
+     }
 
-    .phase2cont {
-        top: auto !important;
-        left: 0 !important;
-        /* transform: translateX(-50%) !important; */
-    }
+     .phase2 {
+         position: relative !important;
+         top: auto !important;
+         left: auto !important;
+         margin-left: 400px;
+         /* transform: translateX(-50%) !important; */
 
-    .phase3 {
-        top: auto !important;
-        left: auto !important;
-    }
+     }
 
-    .phase3cont {
-        top: auto !important;
-        left: auto !important;
-    }
+     .phase2cont {
+         position: relative !important;
+         top: auto !important;
+         left: auto !important;
+         margin-left: 400px;
+         /* transform: translateX(-50%) !important; */
+     }
+
+     .phase3 {
+         position: relative !important;
+         top: auto !important;
+         left: auto !important;
+     }
+
+     .phase3cont {
+         position: relative !important;
+         top: auto !important;
+         left: auto !important;
+     }
 }
 
 @media only screen and (max-width: 768px) {
@@ -177,19 +204,34 @@
         height: auto;
         overflow: hidden;
     }
-.colalign{
+.colflex{
     display: flex !important;
-    flex-direction: column;
+    flex-direction: column !important;
     align-items: center;
+    width: 100vw;
+}
+.colalign{
+         width: 75vw;
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: row !important;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         padding: 0 auto;
+         padding: 0px 0;
+         margin-left: auto;
+         margin-right: auto;
 }
     .col {
-        position: static !important;
+        position: relative !important;
         display: flex;
         flex-direction: column !important;
         justify-content: space-between !important;
         align-items: center !important;
-        width: 80% !important;
+        width: 100vw !important;
         text-align: center;
+        padding: 0 auto;
     }
 
     .roadmapHeading {
@@ -211,7 +253,7 @@
 
     .dates,
     .phaseCont {
-        position: relative;
+        position: relative !important;
         cursor: auto;
         width: 300px;
         margin-bottom: 30px;
@@ -219,122 +261,236 @@
     }
 
     .phase1 {
+        position: relative !important;
         top: auto !important;
         left: auto !important;
     }
 
     .phase1cont {
+        position: relative !important;
         top: auto !important;
         left: auto !important;
     }
 
     .phase2 {
+        position: relative !important;
         top: auto !important;
-        left: 0 !important;
+        left: auto !important;
+        margin-left: 400px;
         /* transform: translateX(-50%) !important; */
 
     }
 
     .phase2cont {
+        position: relative !important;
         top: auto !important;
-        left: 0 !important;
+        left: auto !important;
+        margin-left: 400px;
         /* transform: translateX(-50%) !important; */
     }
 
     .phase3 {
+        position: relative !important;
         top: auto !important;
         left: auto !important;
     }
 
     .phase3cont {
-        top: 0 !important;
+        position: relative !important;
+        top: auto !important;
         left: auto !important;
     }
+}
+@media only screen and (max-width: 1024px) {
+  .container {
+      background-position: center;
+      background-color: #fff;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100vw;
+      height: 240vh;
+      overflow: hidden;
+  }
+
+  .col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .roadmap {
+      font-size: 30px;
+      color: rgb(98, 5, 155);
+  }
+
+  .roadmapHeading {
+      margin: 50px 0 80px;
+      width: 400px;
+  }
+
+  .roadmapLane {
+      height: 1000px;
+      width: 40px;
+      padding-bottom: 100px;
+  }
+
+  .dates {
+      position: absolute;
+      cursor: auto;
+      width: 450px;
+      margin-bottom: 30px;
+  }
+
+  .phaseCont {
+      position: absolute;
+      cursor: auto;
+      width: 450px;
+  }
+
+  .phase1 {
+      top: 5px;
+      left: 200px;
+  }
+
+  .phase1cont {
+      top: 110px;
+      left: 200px;
+  }
+
+  .phase2 {
+      top: 410px;
+      right: 200px;
+  }
+
+  .phase2cont {
+      top: 500px;
+      right: 200px;
+  }
+
+  .phase3 {
+      top: 810px;
+      left: 200px;
+  }
+
+  .phase3cont {
+      top: 885px;
+      left: 200px;
+  }
 }
 
 @media only screen and (max-width: 520px) {
-    .container {
-        background-position: center;
-        background-size: contain;
-        background-color: #fff;
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        /* justify-content: center; */
-        width: 100vw;
-        height: auto;
-        overflow: hidden;
-        border: none;
-        padding-bottom: 30px;
-    }
+       .container {
+           background-position: center;
+           background-size: contain;
+           background-color: #fff;
+           position: relative;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           /* justify-content: center; */
+           width: 100vw;
+           height: auto;
+           overflow: hidden;
+       }
 
-    .col {
-        position: static !important;
-        display: flex;
-        flex-direction: column !important;
-        justify-content: space-between !important;
-        align-items: center !important;
-        width: 80% !important;
-        text-align: center;
-    }
+       .colflex {
+           display: flex !important;
+           flex-direction: column !important;
+           align-items: center;
+           width: 100vw;
+       }
 
-    .roadmapHeading {
-        margin: 50px 0 50px;
-        width: 100%;
-    }
+       .colalign {
+           width: 75vw;
+           display: flex;
+           flex-wrap: wrap;
+           flex-direction: row !important;
+           justify-content: center;
+           align-items: center;
+           flex-wrap: wrap;
+           padding: 0 auto;
+           padding: 0px 0;
+           margin-left: auto;
+           margin-right: auto;
+       }
 
-    .roadmapLane {
-        position: absolute !important;
-        display: none !important;
-        height: 0 !important;
-        width: 0 !important;
-        padding-bottom: 0 !important;
-    }
+       .col {
+           position: relative !important;
+           display: flex;
+           flex-direction: column !important;
+           justify-content: space-between !important;
+           align-items: center !important;
+           width: 100vw !important;
+           text-align: center;
+           padding: 0 auto;
+       }
 
-    .dates {
-        margin-bottom: 10px !important;
-    }
+       .roadmapHeading {
+           margin: 50px 0 50px;
+           width: 100%;
+       }
 
-    .dates,
-    .phaseCont {
-        position: relative;
-        cursor: auto;
-        width: 300px;
-        margin-bottom: 30px;
-        text-align: center;
-    }
+       .roadmapLane {
+           position: absolute !important;
+           display: none !important;
+           height: 0 !important;
+           width: 0 !important;
+           padding-bottom: 0 !important;
+       }
 
-    .phase1 {
-        top: auto !important;
-        left: auto !important;
-    }
+       .dates {
+           margin-bottom: 10px !important;
+       }
 
-    .phase1cont {
-        top: auto !important;
-        left: auto !important;
-    }
+       .dates,
+       .phaseCont {
+           position: relative !important;
+           cursor: auto;
+           width: 300px;
+           margin-bottom: 30px;
+           text-align: center;
+       }
 
-    .phase2 {
-        top: auto !important;
-        left: 0 !important;
-        /* transform: translateX(-50%) !important; */
+       .phase1 {
+           position: absolute !important;
+           top: auto !important;
+           left: 0 !important;
+       }
 
-    }
+       .phase1cont {
+           position: absolute !important;
+           top: auto !important;
+           left: 0 !important;
+       }
 
-    .phase2cont {
-        top: auto !important;
-        left: 0 !important;
-        /* transform: translateX(-50%) !important; */
-    }
+       .phase2 {
+            position: absolute !important;
+           top: auto !important;
+           left: auto !important;
+           margin-left: 400px;
+           /* transform: translateX(-50%) !important; */
 
-    .phase3 {
-        top: auto !important;
-        left: auto !important;
-    }
+       }
 
-    .phase3cont {
-        top: auto !important;
-        left: auto !important;
-    }
+       .phase2cont {
+          position: absolute !important;
+           top: auto !important;
+           left: auto !important;
+           margin-left: 400px;
+           /* transform: translateX(-50%) !important; */
+       }
+
+       .phase3 {
+            position: absolute !important;
+           top: auto !important;
+           right: 0 !important;
+       }
+
+       .phase3cont {
+           position: absolute !important;
+           top: auto !important;
+           right: 0 !important;
+       }
 }

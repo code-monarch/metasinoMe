@@ -35,7 +35,7 @@ function Banner({id}) {
             first Play to Earn CASINO on the metaverse, built in the SANDBOX
             metaverse
           </h3>
-          <h4>RRESALE held on PINKSALE on the 28th January</h4>
+          <h4>PRESALE held on PINKSALE on the 28th January</h4>
           <div className={styles.input}>
             <input type='text' readOnly value={contractAddressValue} />
             <button
