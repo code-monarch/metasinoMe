@@ -23,9 +23,11 @@ const Navigation = () => {
       <header className={styles.header}>
         <nav className={`${styles.navbar}`}>
           <div>
-            <a href="/#banner">
-            <img className={styles.img} src='/metasino.svg' alt='logo' />
-            </a>
+            <Link href='/#banner'>
+              <a>
+                <img className={styles.img} src='/metasino.svg' alt='logo' />
+              </a>
+            </Link>
           </div>
           {/*  */}
           <ul className={styles.NavigationList}>
