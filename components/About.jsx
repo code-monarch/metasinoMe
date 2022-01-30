@@ -101,7 +101,7 @@ const About = ({id}) => {
             <div className={styles.card}>
               <h3>Metasino Properties</h3>
               <h4>
-                Metasino's Sandbox land coordinates are LAND (-41, -132).and
+                Metasino Sandbox land coordinates are LAND (-41, -132).and
                 much more to be announced on other metaverses (decantraland,
                 polkacity...).
               </h4>
