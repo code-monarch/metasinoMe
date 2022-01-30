@@ -67,8 +67,9 @@
         display: none !important;
     }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     .header {
         display: none !important;
+        /* padding: 30px; */
     }
 }

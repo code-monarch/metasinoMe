@@ -183,7 +183,7 @@
     align-items: center;
     width: 85vw;
     height: 100%;
-    margin-top: 100px;
+    margin-top: 100px !important;
     z-index: 5;
  text-align: center;
 }
@@ -212,14 +212,14 @@
     width: 200px;
     height: 200px;
     left: -10px;
-    top: 442px;
+    top: 42px;
     filter: none;
 }
 .container video {
     display: none;
 }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 767px) {
         .container {
             display: flex;
             flex-direction: column;
@@ -270,10 +270,10 @@
             width: 100vw;
         }
 
-        /* .container .firstdice {
+        .container .firstdice {
             position: absolute;
             width: 160px;
-            height: 160px;
+            height: 260px;
             right: 0px;
             top: 342px;
             filter: blur(4px);
@@ -284,9 +284,9 @@
             width: 220px;
             height: 220px;
             left: 0px;
-            top: 642px;
+            top: 542px;
             filter: none;
-        } */
+        }
 
         .container video {
             display: none;

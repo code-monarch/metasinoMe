@@ -74,7 +74,7 @@ function Banner({id}) {
             Sorry, your browser doesnt support embedded videos.
           </video>
         </div> */}
-        <img
+        {/* <img
           className={styles.firstdice}
           src='/img/Dice.png'
           alt=''
@@ -83,7 +83,7 @@ function Banner({id}) {
           className={styles.seconddice}
           src='/img/Dice.png'
           alt=''
-        />
+        /> */}
       </div>
       {/* <div className={styles.col2}>
         <div>
