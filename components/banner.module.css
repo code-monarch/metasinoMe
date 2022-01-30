@@ -211,8 +211,8 @@
     position: absolute;
     width: 200px;
     height: 200px;
-    left: 0px;
-    top: 642px;
+    left: -10px;
+    top: 442px;
     filter: none;
 }
 .container video {
@@ -270,7 +270,7 @@
             width: 100vw;
         }
 
-        .container .firstdice {
+        /* .container .firstdice {
             position: absolute;
             width: 160px;
             height: 160px;
@@ -286,7 +286,7 @@
             left: 0px;
             top: 642px;
             filter: none;
-        }
+        } */
 
         .container video {
             display: none;
@@ -361,7 +361,7 @@
             width: 100vw;
         }
 
-        .container .firstdice {
+        /* .container .firstdice {
             position: absolute;
             width: 160px;
             height: 160px;
@@ -377,7 +377,7 @@
             left: 0px;
             top: 642px;
             filter: none;
-        }
+        } */
 
         .container video {
             display: none;
