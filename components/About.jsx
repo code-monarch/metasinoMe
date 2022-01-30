@@ -15,7 +15,7 @@ const About = ({id}) => {
       <section id={id} className={styles.container}>
         <div className={styles.sandbox}>
           <div className={styles.rightside}>
-            <img src='/img/land.jpg' alt=''/>
+            <img src='/img/land.jpg' alt='' />
           </div>
           <div className={styles.leftside}>
             <h3>
@@ -39,26 +39,25 @@ const About = ({id}) => {
               Metasino implores creative game theory algorithms to ensure that
               all participants in metasino will abide by the community
               governance accordingly. Our unique staking and the locking
-              mechanism will ensure all metasino player’s worth are valued
+              mechanism will ensure all metasino players worth are valued
               properly. This ‘true worth’ will ensure decentralization is
               maintained and whales do not interfere.
             </p>
             <div className={styles.buttonGrp}>
               <button className={styles.join}>
-                <Link href='/whitepaper.pdf'>
-                <a target='_blank'
-                    rel='noopener noreferrer'>
-                  Join Us
-                </a>
+                <Link href='t.me/MetasinoChat'>
+                  <a target='_blank' rel='noopener noreferrer'>
+                    Join Us
+                  </a>
                 </Link>
               </button>
               <button className={styles.whitepaper}>
-                <a href=''> Whitepaper</a>
+                <a href='/whitepaper.pdf'> Whitepaper</a>
               </button>
             </div>
           </div>
           <div className={styles.rightside}>
-            <img src='/img/Metasino-logo.png' alt=''/>
+            <img src='/img/Metasino-logo.png' alt='' />
           </div>
         </div>
         {/* PRESALE */}
@@ -123,7 +122,7 @@ const About = ({id}) => {
               <h3>PARTY FOX PARTNERSHIP</h3>
               <p>
                 party fox are collections of composed 5999 pixelated originally
-                designed fox’s. this is a skilk of foxes that does nothing but
+                designed fox. this is a skilk of foxes that does nothing but
                 party all day.
               </p>
               <p>

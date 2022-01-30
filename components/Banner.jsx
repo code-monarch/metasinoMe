@@ -71,7 +71,7 @@ function Banner() {
         <div className={styles.section2}>
           <video loop muted autoPlay height={350}>
             <source src='/cube.mp4' type='video/mp4' />
-            Sorry, your browser doesn't support embedded videos.
+            Sorry, your browser doesnt support embedded videos.
           </video>
         </div>
         <img
