@@ -36,8 +36,8 @@
   .menuIcon {
     display: inline-block;
     position: fixed;
-    top: 60px;
-    left: 60px;
+    top: 30px;
+    left: 30px;
     /* max-height: 90px; */
     cursor: pointer;
     transition: 0.3s all ease-in;

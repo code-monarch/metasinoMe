@@ -69,14 +69,14 @@ const About = ({id}) => {
             <div className={styles.card}>
               <h3>Play-to-Earn</h3>
               <h4>
-                virtual casino games ranging from Blackjack, Poker, Big Six
+                Virtual casino games ranging from Blackjack, Poker, Big Six
                 wheel, Slot machine, Craps, Roulette, Baccarat, Pool etc
               </h4>
             </div>
             <div className={styles.card}>
               <h3>Income-Generating NFTs</h3>
               <h4>
-                yield-bearing assets enabling you to earn revenue through fees
+                Yield-bearing assets enabling you to earn revenue through fees
                 collected from players. Imagine owning a Poker table, Slot
                 machine in Las Vegas
               </h4>
@@ -92,7 +92,7 @@ const About = ({id}) => {
             <div className={styles.card}>
               <h3>Social life & Gambling</h3>
               <h4>
-                virtual nightclub packed with stripclub, VIP lounge and a
+                Virtual nightclub packed with stripclub, VIP lounge and a
                 cocktail bar, and a virtual social park where individuals can
                 meet, interact and catch fun using a Virtual Reality (VR)
                 headset.
@@ -121,12 +121,12 @@ const About = ({id}) => {
             <div className={styles.part2}>
               <h3>PARTY FOX PARTNERSHIP</h3>
               <p>
-                party fox are collections of composed 5999 pixelated originally
+                Party fox are collections of composed 5999 pixelated originally
                 designed fox. this is a skilk of foxes that does nothing but
                 party all day.
               </p>
               <p>
-                owning a fox gives you access to their future events and shows
+                Owning a fox gives you access to their future events and shows
                 worldwide where creators, collectors and investors will be in
                 attendance. every fox collector will have access to their
                 metaverse.
@@ -137,7 +137,7 @@ const About = ({id}) => {
                 events.
               </p>
               <p>
-                you can swap fox for $casino, or earn fox as reward for games
+                You can swap fox for $casino, or earn fox as reward for games
                 played in casino. you will be able to stake $casino to earn fox.
               </p>
             </div>
