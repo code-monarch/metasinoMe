@@ -36,7 +36,7 @@ function Banner({id}) {
             metaverse
           </h3>
           <h4>PRESALE held on PINKSALE on the 28th January</h4>
-          <div className={styles.input}>
+          {/* <div className={styles.input}>
             <input type='text' readOnly value={contractAddressValue} />
             <button
               className={copied ? styles.success : styles.copy}
@@ -51,7 +51,7 @@ function Banner({id}) {
               }}>
               {copied ? "Copied" : "Copy"}
             </button>
-          </div>
+          </div> */}
           <div className={styles.buttonGrp}>
             <button className={styles.presale}>
               <a
