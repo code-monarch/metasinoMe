@@ -62,11 +62,11 @@ const Navigation = () => {
                 <i className='fab fa-telegram fa-lg'></i>
               </a>
             </div>
-            <div className={styles.facebook}>
+            {/* <div className={styles.facebook}>
               <a href=''>
                 <i className='fab fa-facebook fa-lg'></i>
               </a>
-            </div>
+            </div> */}
             <div className={styles.instagram}>
               <a href=''>
                 <i className='fab fa-instagram fa-lg'></i>
