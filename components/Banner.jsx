@@ -32,7 +32,7 @@ function Banner({id}) {
           </div>
           {/* <h2>METASINO</h2> */}
           <h3>
-            first Play to Earn CASINO on the metaverse, built in the SANDBOX
+            First Play to Earn CASINO on the metaverse, built in the SANDBOX
             metaverse
           </h3>
           <h4>PRESALE held on PINKSALE on the 28th January</h4>
