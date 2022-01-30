@@ -24,17 +24,18 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .metasino{
-    width: 340px;
+    width: 380px;
 }
 .flex {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     width: 1200px;
     height: 100%;
     margin-top: 180px;
     z-index: 5;
+    text-align: center;
 }
 
 .container .flex h2 {
@@ -110,6 +111,7 @@
     justify-content: flex-start;
     width: 50%;
     z-index: 5;
+    text-align: center;
 }
 
 .section1 {

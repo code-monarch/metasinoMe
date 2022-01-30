@@ -58,7 +58,7 @@ export default function Home() {
         hideMenuIcon={hideMenuIcon}
       />
       <Navigation />
-      <Banner />
+      <Banner id={"banner"} />
       <About id={"about"} />
       <RoadMap id={"roadmap"} />
       <Tokenomics id={"tokenomics"} />

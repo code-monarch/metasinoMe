@@ -9,7 +9,7 @@ import "aos/dist/aos.css";
 const isServer = typeof window === "undefined";
 const WOW = !isServer ? require("wow.js") : null;
 
-function Banner() {
+function Banner({id}) {
   // INSTANTIATE WOW JS
   useEffect(() => {
     const wow = new WOW().init();
@@ -20,7 +20,7 @@ function Banner() {
     "0x1062a2e6274709bb3ae9d358703e71eed1af7bd6"
   );
   return (
-    <div className={styles.container}>
+    <div id={id} className={styles.container}>
       <div className={styles.flex}>
         <div className={styles.section1}>
           <div>
@@ -68,12 +68,12 @@ function Banner() {
             </button>
           </div>
         </div>
-        <div className={styles.section2}>
+        {/* <div className={styles.section2}>
           <video loop muted autoPlay height={350}>
             <source src='/cube.mp4' type='video/mp4' />
             Sorry, your browser doesnt support embedded videos.
           </video>
-        </div>
+        </div> */}
         <img
           className={styles.firstdice}
           src='/img/Dice.png'
