@@ -1,148 +1,24 @@
 .container {
-    position: relative;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    background-repeat: no-repeat;
-    background-color: black;
-    background-size: cover;
-    background-origin: border-box;
     width: 100vw;
     height: 120vh;
     margin-top: -80px;
     margin-bottom: 0px;
-    margin-right: auto;
-    margin-left: auto;
     box-sizing: border-box;
-    background: #c31432;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #240b36, #c31432);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #240b36, #c31432);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-.metasino{
-    width: 380px;
-}
-.flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    width: 1200px;
-    height: 100%;
-    margin-top: 200px;
-    z-index: 5;
-    text-align: center;
-}
-
-.container .flex h2 {
-    font-size: 65px;
-    margin-top: 0;
-    margin-bottom: 0px;
-}
-
-.container input {
-    border: 5px solid white;
-    border-radius: 5px;
-    -webkit-box-shadow:
-        inset 0 0 8px rgba(0, 0, 0, 0.1),
-        0 0 16px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow:
-        inset 0 0 8px rgba(0, 0, 0, 0.1),
-        0 0 16px rgba(0, 0, 0, 0.1);
-    box-shadow:
-        inset 0 0 8px rgba(0, 0, 0, 0.1),
-        0 0 16px rgba(0, 0, 0, 0.1);
-    padding: 10px 15px;
-    background: rgba(255, 255, 255, 0.5);
-    margin: 0 10px 10px 0;
-    font-size: 18px;
-}
-
-.container .copy,
-.success {
-    border: 2px solid white;
-    border-radius: 5px;
-    -webkit-box-shadow:
-        inset 0 0 8px rgba(0, 0, 0, 0.1),
-        0 0 16px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow:
-        inset 0 0 8px rgba(0, 0, 0, 0.1),
-        0 0 16px rgba(0, 0, 0, 0.1);
-    box-shadow:
-        inset 0 0 8px rgba(0, 0, 0, 0.1),
-        0 0 16px rgba(0, 0, 0, 0.1);
-    padding: 10px 15px;
-    background: #240b36;
-    color: white;
-    margin: 0 10px 10px 0;
-}
-
-.container .success {
-    background: green;
-}
-
-.container .presale,
-.telegram {
-    border: 2px solid white;
-    border-radius: 5px;
-    -webkit-box-shadow:
-        inset 0 0 8px rgba(0, 0, 0, 0.1),
-        0 0 16px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow:
-        inset 0 0 8px rgba(0, 0, 0, 0.1),
-        0 0 16px rgba(0, 0, 0, 0.1);
-    box-shadow:
-        inset 0 0 8px rgba(0, 0, 0, 0.1),
-        0 0 16px rgba(0, 0, 0, 0.1);
-    padding: 10px 15px;
-    background: #240b36;
-    color: white;
-    margin: 10px 10px 10px 0;
-}
-
-
-.section1 {
+    width: contain;
+    height: contain;
+    background: linear-gradient(0deg, rgba(59, 11, 60, 0.6), rgba(59, 11, 60, 0.6)),
+        url("/img/HeroBg.jpg");
+    mix-blend-mode: normal;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-origin: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 50%;
-    z-index: 5;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.section1 {
-    width: 50%;
-}
-
-.section2 {
-    z-index: 5;
-}
-
-.container video {
-    width: 100%;
-}
-
-.container .firstdice {
-    position: absolute;
-    width: 390px;
-    height: 437px;
-   right: 0px;
-   top: 342px;
-    /* filter: blur(4px); */
-}
-
-.container .seconddice {
-    position: absolute;
-    width: 390px;
-    height: 437px;
-    left: 0px;
-    top: 342px;
-    filter: blur(4px);
-}
 
 .col2 {
     display: flex;
@@ -151,6 +27,124 @@
     align-items: center;
     padding: 0;
     text-align: center;
+    margin-top: 130px;
+}
+
+/* .metasinoLogo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px;
+} */
+
+
+.welcomeTo {
+    width: 130px;
+    margin-bottom: 18px;
+    padding: 0;
+}
+
+.metasinoTxt {
+    width: 450px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+}
+
+.content {
+    width: 50%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sliderWrapper {
+    font-size: 25px;
+    font-family: "BigNoodle Titling", sans-serif;
+    color: #aaa;
+    font-weight: 400;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    height: 70px;
+    padding-left: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slider div {
+    color: #fff;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 2px 15px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.sliderText1 {
+    animation: slide 5s linear infinite;
+}
+
+
+@keyframes slide {
+    0% {
+        margin-top: -300px;
+    }
+
+    5% {
+        margin-top: -200px;
+    }
+
+    33% {
+        margin-top: -200px;
+    }
+
+    38% {
+        margin-top: -100px;
+    }
+
+    66% {
+        margin-top: -100px;
+    }
+
+    71% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .metasinoLogo {
+        display: none;
+    }
+    .downArrow {
+        display: block;
+        pointer-events: none;
+    }
+    .col2{
+        margin-top: 0px;
+    }
+
+    @keyframes change {
+        0% {
+            background-position: 0 50%;
+        }
+
+        50% {
+            background-position: 100% 50%;
+        }
+
+        100% {
+            background-position: 0 50%;
+        }
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -163,241 +157,108 @@
         height: 100vh;
         margin-bottom: 0px;
         margin-top: 0 !important;
-        padding-top: 80px;
+        padding-top: 100px;
         box-sizing: border-box;
-        background: linear-gradient(0deg, rgba(59, 11, 60, 0.6), rgba(59, 11, 60, 0.6));
+        background: linear-gradient(0deg, rgba(59, 11, 60, 0.6), rgba(59, 11, 60, 0.6)),
+            url("../public/img/HeroBg.jpg");
         mix-blend-mode: normal;
         background-repeat: no-repeat;
         background-color: black;
         background-size: cover;
         background-origin: border-box;
     }
-    .metasino {
-        width: 220px;
+
+    .col2 {
+        margin-top: 200px;
+    }
+
+    .metasinoLogo {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 25px;
+    }
+
+    .welcomeTo {
+        width: 100px;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+
+    .metasinoTxt {
+        width: 300px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    .content {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sliderWrapper {
+        font-size: 1rem;
+        font-family: 'Titillium Web',
+            sans-serif;
+        color: #aaa;
+        font-weight: bold;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .slider {
+        height: 70px;
+        padding-left: 15px;
+        overflow: hidden;
         text-align: center;
     }
-.flex {
-    display: flex;
-    flex-direction: column !important;
-    justify-content: space-between;
-    align-items: center;
-    width: 85vw;
-    height: 100%;
-    margin-top: 100px !important;
-    z-index: 5;
- text-align: center;
-}
-.section1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    width: 82vw !important;
-     text-align: center;
-    z-index: 5;
-}
-.section2 {
-    z-index: 5;
-    width: 100vw;
-}
-.container .firstdice {
-    position: absolute;
-    width: 90px;
-    height: 90px;
-    right: 0px;
-    top: 342px;
-    filter: blur(4px);
-}
-.container .seconddice {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    left: -10px;
-    top: 42px;
-    filter: none;
-}
-.container video {
-    display: none;
-}
-}
-@media only screen and (min-width: 767px) {
-        .container {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            width: 100vw;
-            height: 90vh;
-            margin-bottom: 0px;
-            margin-top: 0 !important;
-            padding-top: 80px;
-            box-sizing: border-box;
-            background: linear-gradient(0deg, rgba(59, 11, 60, 0.6), rgba(59, 11, 60, 0.6));
-            mix-blend-mode: normal;
-            background-repeat: no-repeat;
-            background-color: black;
-            background-size: cover;
-            background-origin: border-box;
+
+    .slider div {
+        color: #fff;
+        height: 50px;
+        margin-bottom: 50px;
+        padding: 2px 15px;
+        text-align: center;
+        box-sizing: border-box;
+    }
+
+    .sliderText1 {
+        animation: slide 5s linear infinite;
+    }
+
+    @keyframes slide {
+        0% {
+            margin-top: -300px;
         }
 
-        .metasino {
-            width: 260px;
-            text-align: center;
+        5% {
+            margin-top: -200px;
         }
 
-        .flex {
-            display: flex;
-            flex-direction: column !important;
-            justify-content: space-between;
-            align-items: center;
-            width: 85vw;
-            height: 100%;
-            margin-top: 160px;
-            z-index: 5;
-            text-align: center;
+        33% {
+            margin-top: -200px;
         }
 
-        .section1 {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            width: 82vw !important;
-            text-align: center;
-            z-index: 5;
+        38% {
+            margin-top: -100px;
         }
 
-        .section2 {
-            z-index: 5;
-            width: 100vw;
+        66% {
+            margin-top: -100px;
         }
 
-        .container .firstdice {
-            position: absolute;
-            width: 160px;
-            height: 260px;
-            right: 0px;
-            top: 342px;
-            filter: blur(4px);
+        71% {
+            margin-top: 0px;
         }
 
-        .container .seconddice {
-            position: absolute;
-            width: 220px;
-            height: 220px;
-            left: 0px;
-            top: 542px;
-            filter: none;
+        100% {
+            margin-top: 0px;
         }
+    }
 
-        .container video {
-            display: none;
-        }
-        .container .presale,
-        .telegram {
-            border: 2px solid white;
-            border-radius: 5px;
-            -webkit-box-shadow:
-                inset 0 0 8px rgba(0, 0, 0, 0.1),
-                0 0 16px rgba(0, 0, 0, 0.1);
-            -moz-box-shadow:
-                inset 0 0 8px rgba(0, 0, 0, 0.1),
-                0 0 16px rgba(0, 0, 0, 0.1);
-            box-shadow:
-                inset 0 0 8px rgba(0, 0, 0, 0.1),
-                0 0 16px rgba(0, 0, 0, 0.1);
-            padding: 12px 17px;
-            background: #240b36;
-            color: white;
-            margin: 10px 10px 10px 0;
-        }
-}
-@media only screen and (max-width: 1024px) {
-        .container {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            width: 100vw;
-            height: 100vh;
-            margin-bottom: 0px;
-            margin-top: 0 !important;
-            padding-top: 80px;
-            box-sizing: border-box;
-            background: linear-gradient(0deg, rgba(59, 11, 60, 0.6), rgba(59, 11, 60, 0.6));
-            mix-blend-mode: normal;
-            background-repeat: no-repeat;
-            background-color: black;
-            background-size: cover;
-            background-origin: border-box;
-        }
-
-        .metasino {
-            width: 260px;
-            text-align: center;
-        }
-
-        .flex {
-            display: flex;
-            flex-direction: column !important;
-            justify-content: space-between;
-            align-items: center;
-            width: 85vw;
-            height: 100%;
-            margin-top: 160px;
-            z-index: 5;
-            text-align: center;
-        }
-
-        .section1 {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            width: 82vw !important;
-            text-align: center;
-            z-index: 5;
-        }
-
-        .section2 {
-            z-index: 5;
-            width: 100vw;
-        }
-
-        /* .container .firstdice {
-            position: absolute;
-            width: 160px;
-            height: 160px;
-            right: 0px;
-            top: 342px;
-            filter: blur(4px);
-        }
-
-        .container .seconddice {
-            position: absolute;
-            width: 220px;
-            height: 220px;
-            left: 0px;
-            top: 642px;
-            filter: none;
-        } */
-
-        .container video {
-            display: none;
-        }
-        .container .presale,
-        .telegram {
-            border: 2px solid white;
-            border-radius: 5px;
-            -webkit-box-shadow:
-                inset 0 0 8px rgba(0, 0, 0, 0.1),
-                0 0 16px rgba(0, 0, 0, 0.1);
-            -moz-box-shadow:
-                inset 0 0 8px rgba(0, 0, 0, 0.1),
-                0 0 16px rgba(0, 0, 0, 0.1);
-            box-shadow:
-                inset 0 0 8px rgba(0, 0, 0, 0.1),
-                0 0 16px rgba(0, 0, 0, 0.1);
-            padding: 12px 17px;
-            background: #240b36;
-            color: white;
-            margin: 10px 10px 10px 0;
-        }
 }

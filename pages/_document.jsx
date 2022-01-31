@@ -11,11 +11,35 @@ class MyDocument extends Document {
             href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'
           />
           {/* PRELOAD FONT FILES */}
-          <link rel='preconnect' href='https://fonts.googleapis.com' />
-          <link rel='preconnect' href='https://fonts.gstatic.com' crossOrigin />
+          {/* <link
+            rel='preload'
+            href='/fonts/Headlines-Bold.otf'
+            as='font'
+          /> */}
           <link
-            href='https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap'
-            rel='stylesheet'
+            rel='preload'
+            href='/fonts/cream-DEMO.ttf'
+            as='font'
+          />
+          <link
+            rel='preload'
+            href='/fonts/Casino.ttf'
+            as='font'
+          />
+          <link
+            rel='preload'
+            href='/fonts/CasinoFlat.ttf'
+            as='font'
+          />
+          <link
+            rel='preload'
+            href='/fonts/big_noodle_titling.ttf'
+            as='font'
+          />
+          <link
+            rel='preload'
+            href='/fonts/Lato-Regular.ttf'
+            as='font'
           />
           {/* FONT AWESOME */}
           <link

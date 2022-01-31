@@ -5,7 +5,7 @@ import styles from "./about.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const About = ({id}) => {
+const About = ({ id }) => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -13,22 +13,15 @@ const About = ({id}) => {
   return (
     <>
       <section id={id} className={styles.container}>
-        <div className={styles.sandbox}>
-          <div className={styles.rightside}>
-            <img src='/img/land.jpg' alt='' />
-          </div>
-          <div className={styles.leftside}>
-            <h3>
-              Metasino has acquired its first of many metaverse land on SANDBOX
-            </h3>
-            <h3 className={styles.coordinate}>sandbox land coordinates</h3>
-            <h4 className={styles.landcoor}>lAND (-41, -132)</h4>
-          </div>
-        </div>
-        <div className={styles.sandbox}>
-          <div className={styles.leftside}>
-            <h4 className={styles.leftsideh4}>More than just an idea</h4>
-            <h3 className={styles.leftsideh3}>CASINO IN THE METAVERSE</h3>
+        {/*  */}
+        <div className={styles.aboutContainer}>
+          <div className={styles.aboutContent}>
+            <img
+              className={styles.casinoInMetaverse}
+              src='CasinoInMetaverse.svg'
+              alt=''
+            />
+            <h4 className={styles.abouth4}>More than just an idea</h4>
             <p>
               Metasino is a decentralized virtual casino built on the blockchain
               to be played in the Metaverse using the Metasino native token -
@@ -44,37 +37,44 @@ const About = ({id}) => {
               maintained and whales do not interfere.
             </p>
             <div className={styles.buttonGrp}>
-              <button className={styles.join}>
-                <Link href='t.me/MetasinoChat'>
-                  <a target='_blank' rel='noopener noreferrer'>
-                    Join Us
-                  </a>
-                </Link>
-              </button>
-              <button className={styles.whitepaper}>
-                <a href='/whitepaper.pdf'> Whitepaper</a>
-              </button>
+              <Link href='t.me/MetasinoChat'>
+                <a
+                  className={styles.join}
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  JOin Us
+                </a>
+              </Link>
+              <a className={styles.whitepaper} href='/whitepaper.pdf'>
+                Whitepaper
+              </a>
             </div>
           </div>
-          <div className={styles.rightside}>
-            <img src='/img/Metasino-logo.png' alt='' />
+        </div>
+        {/*  */}
+        <div className={styles.sandbox}>
+          <div className={styles.sandboxLeft}>
+            <img className={styles.sandboxImg} src='/img/land.jpg' alt='' />
+          </div>
+          <div className={styles.sandboxRight}>
+            <h3>
+              Metasino has acquired its first of many metaverse land on SANDBOX
+            </h3>
+            <h3 className={styles.coordinate}>sandbox land coordinates</h3>
+            <h4 className={styles.landcoor}>lAND (-41, -132)</h4>
           </div>
         </div>
-        {/* PRESALE */}
-        {/* <div className={styles.presale}>
-          <img src="/img/presale.jpg" alt="" />
-        </div> */}
         <div className={styles.wwdcontainer}>
           <div className={styles.wwd}>
             <div className={styles.card}>
-              <h3>Play-to-Earn</h3>
+              <h3 className={styles.wwdTitle}>Play-to-Earn</h3>
               <h4>
                 Virtual casino games ranging from Blackjack, Poker, Big Six
                 wheel, Slot machine, Craps, Roulette, Baccarat, Pool etc
               </h4>
             </div>
             <div className={styles.card}>
-              <h3>Income-Generating NFTs</h3>
+              <h3 className={styles.wwdTitle}>Income-Generating NFTs</h3>
               <h4>
                 Yield-bearing assets enabling you to earn revenue through fees
                 collected from players. Imagine owning a Poker table, Slot
@@ -82,7 +82,7 @@ const About = ({id}) => {
               </h4>
             </div>
             <div className={styles.card}>
-              <h3>Staking</h3>
+              <h3 className={styles.wwdTitle}>Staking</h3>
               <h4>
                 Metasino will have a single-asset staking for passive income
                 generation. Yield farming will come later on as Metasino
@@ -90,7 +90,7 @@ const About = ({id}) => {
               </h4>
             </div>
             <div className={styles.card}>
-              <h3>Social life & Gambling</h3>
+              <h3 className={styles.wwdTitle}>Social life & Gambling</h3>
               <h4>
                 Virtual nightclub packed with stripclub, VIP lounge and a
                 cocktail bar, and a virtual social park where individuals can
@@ -99,10 +99,10 @@ const About = ({id}) => {
               </h4>
             </div>
             <div className={styles.card}>
-              <h3>Metasino Properties</h3>
+              <h3 className={styles.wwdTitle}>Metasino Properties</h3>
               <h4>
-                Metasino Sandbox land coordinates are LAND (-41, -132).and
-                much more to be announced on other metaverses (decantraland,
+                Metasino Sandbox land coordinates are LAND (-41, -132).and much
+                more to be announced on other metaverses (decantraland,
                 polkacity...).
               </h4>
             </div>
@@ -111,14 +111,14 @@ const About = ({id}) => {
         {/* PARTNERSHIP */}
         <div className={styles.partnership}>
           <div className={styles.partrow}>
-            <div className={styles.part1}>
+            <div className={styles.partLeft}>
               <img
-                className={styles.part1img}
+                className={styles.partLeftimg}
                 src='/img/strategicPart.jpg'
                 alt=''
               />
             </div>
-            <div className={styles.part2}>
+            <div className={styles.partRight}>
               <h3>PARTY FOX PARTNERSHIP</h3>
               <p>
                 Party fox are collections of composed 5999 pixelated originally

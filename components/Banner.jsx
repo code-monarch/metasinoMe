@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
+import Link from "next/link";
 import styles from "./banner.module.css";
-
-// import { Button } from "@chakra-ui/react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -9,93 +8,25 @@ import "aos/dist/aos.css";
 const isServer = typeof window === "undefined";
 const WOW = !isServer ? require("wow.js") : null;
 
-function Banner({id}) {
+function Banner() {
   // INSTANTIATE WOW JS
   useEffect(() => {
     const wow = new WOW().init();
     AOS.init();
   }, []);
-  const [copied, setCopied] = useState(false);
-  const [contractAddressValue, setcontractAddressValue] = useState(
-    "0x1062a2e6274709bb3ae9d358703e71eed1af7bd6"
-  );
   return (
-    <div id={id} className={styles.container}>
-      <div className={styles.flex}>
-        <div className={styles.section1}>
-          <div>
-            <img
-              className={styles.metasino}
-              src='/metasino.svg'
-              alt=''
-            />
-          </div>
-          {/* <h2>METASINO</h2> */}
-          <h3>
-            First Play to Earn CASINO on the metaverse, built in the SANDBOX
-            metaverse
-          </h3>
-          <h4>PRESALE held on PINKSALE on the 28th January</h4>
-          {/* <div className={styles.input}>
-            <input type='text' readOnly value={contractAddressValue} />
-            <button
-              className={copied ? styles.success : styles.copy}
-              onClick={() => {
-                navigator.clipboard.writeText(
-                  "0x1062a2e6274709bb3ae9d358703e71eed1af7bd6"
-                );
-                setCopied(true);
-                setTimeout(() => {
-                  setCopied(false);
-                }, 2000);
-              }}>
-              {copied ? "Copied" : "Copy"}
-            </button>
-          </div> */}
-          <div className={styles.buttonGrp}>
-            <button className={styles.presale}>
-              <a
-                href='https://www.pinksale.finance/#/launchpad/0x01FC371394E2C552C4920CF0521611A7b1592877?chain=BSC'
-                target='_blank'
-                rel='noreferrer'>
-                BUY PRESALE
-              </a>
-            </button>
-            <button className={styles.telegram}>
-              <a href='t.me/MetasinoChat' target='_blank' rel='noreferrer'>
-                JOIN TELEGRAM
-              </a>
-            </button>
-          </div>
-        </div>
-        {/* <div className={styles.section2}>
-          <video loop muted autoPlay height={350}>
-            <source src='/cube.mp4' type='video/mp4' />
-            Sorry, your browser doesnt support embedded videos.
-          </video>
-        </div> */}
-        {/* <img
-          className={styles.firstdice}
-          src='/img/Dice.png'
-          alt=''
-        />
-        <img
-          className={styles.seconddice}
-          src='/img/Dice.png'
-          alt=''
-        /> */}
-      </div>
-      {/* <div className={styles.col2}>
-        <div>
+    <div className={styles.container}>
+      <div className={styles.col2}>
+        {/* <div>
           <img
             data-wow-delay='470ms'
             className={`${
               styles.metasinoLogo
             } ${"wow animate__animated animate__fadeInDown"}`}
-            src='img/Metasino-logo.png'
+            src='/img/Metasino-logo.png'
             alt='metasino logo'
           />
-        </div>
+        </div> */}
         <div>
           <img
             className={`${
@@ -115,8 +46,8 @@ function Banner({id}) {
             src='/metasino.svg'
             alt=''
           />
-        </div> */}
-      {/* <div
+        </div>
+        <div
           data-wow-delay='670ms'
           className={`${
             styles.content
@@ -140,17 +71,17 @@ function Banner({id}) {
               </div>
             </div>
           </div>
-        </div> */}
-      {/* <div>
-          <a
-            className={styles.joinPresale}
-            href='https://www.pinksale.finance/#/launchpad/0x01FC371394E2C552C4920CF0521611A7b1592877?chain=BSC'
-            target='_blank'
-            rel='noreferrer'>
-            Join Presale
-          </a>
         </div>
-      </div>*/}
+        <div
+          data-wow-delay='1000ms'
+          className={"wow animate__animated animate__fadeInUpBig"}>
+          <Link href='/#about'>
+            <a>
+              <i className='fab fa-chevron-down fa-lg'></i>
+            </a>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }

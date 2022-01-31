@@ -1,109 +1,301 @@
 .container {
-    position: relative;
-    background: #fff;
+    background: repeat linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url("/img/RMBg.jpg");
+    background-position: center;
+    background-size: contain;
     height: auto;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-items: center;
     padding: 0px 0;
-    padding-bottom: 70px;
-    padding-top: 40px;
     margin-left: auto;
     margin-right: auto;
-    z-index: 5;
-    overflow: hidden;
 }
 
 .tokenomics {
-    width: 1200px;
-    z-index: 5;
+    margin: 50px 0 50px;
+    background: transparent;
 }
 
-.container img {
-    z-index: 5;
+.row {
+    max-width: 1000px;
+    height: 100%;
+    /* background-color:white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
 }
 
-.tokenomicstxt {
-    position: absolute;
-    font-size: 250px;
-    color: rgba(98, 5, 155, 0.35);
-    top: -250px;
-    left: 0;
+.row .packageCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    border: 2px solid #cca354;
+    background: #000;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    margin-right: 45px;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    /* box-shadow: 0 0 15px rgb(204 163 84 / 50%); */
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
+
+.row .packageCards h3 {
+    /* background-color: #000; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-size: 20px;
+    font-family: "Casino", sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    /* max-width: 100px; */
+    /* border-top-right-radius: 8px;
+    border-top-left-radius: 8px; */
+}
+
+.row .packageCards p {
+    color: #fff;
+    ;
+    font-size: 19px;
+    font-family: "Casino", sans-serif;
+    text-align: center;
+}
+
+.container h2 {
+    color: #cca354 !important;
+    font-family: "Casino", sans-serif;
+    font-size: 22px;
+    /* max-width: 80%; */
+    margin-bottom: 5px;
+}
+
+.mus {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    text-align: center;
+    padding: 50px 0 50px;
+    border: 3px solid #cca354;
+    width: 800px;
+    margin: 50px;
+    box-shadow: 0 0 15px rgb(204 163 84 / 50%);
+
+}
+
+.mus h4 {
+    font-size: 30px;
+    font-family: "casino";
+    color: #cca354;
+    margin-bottom: 10px;
+}
+
+.mus p {
+    font-size: 16px;
+    font-family: 'Titillium Web',
+        sans-serif;
+    max-width: 70%;
+}
+ @media only screen and (max-width: 768px) {
+        .container {
+            background: repeat linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+                url("/img/RMBg.jpg");
+            background-position: center;
+
+            height: auto;
+            width: 100vw;
+            display: flex;
+            flex-direction: flex;
+            align-items: center;
+            align-items: space-between;
+            justify-content: space-between;
+            padding: 0px auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+   .tokenomics {
+       margin: 70px 0 50px;
+   }
+.row {
+    width: 90vw;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+
+.row .packageCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    color: whitesmoke;
+    border: 2px solid #cca354;
+    background: #000;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 200px;
+    height: 200px;
+    margin-right: 0;
+    margin-bottom: 40px;
+    padding: 20px 0;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+.row .packageCards h3 {
+    /* background-color: #000; */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    color: #fff;
+    font-size: 20px;
+    font-family: "Casino", sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.row .packageCards p {
+    color: #fff;
+    ;
+    font-size: 19px;
+    font-family: "Casino", sans-serif;
+    text-align: center;
+}
+
+
+        .tokenomics {
+            margin: 0px 0 50px;
+        }
+
+        .container h2 {
+            color: #cca354 !important;
+            font-family: "Casino", sans-serif;
+            font-size: 22px;
+            max-width: 80%;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .mus {
+            color: whitesmoke;
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: top;
+            text-align: center;
+            padding: 50px 30px 50px;
+            border: 3px solid #cca354;
+            margin: 50px auto 30px;
+            box-shadow: 0 0 15px rgb(204 163 84 / 50%);
+
+        }
+
+        .mus h4 {
+            font-size: 20px;
+            font-family: "casino";
+            color: #cca354;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+
+        .mus p {
+            font-size: 1rem;
+            font-family: 'Lato Regular',
+                sans-serif;
+            max-width: 700px;
+        }
+}
 @media only screen and (max-width: 480px) {
     .container {
-        padding-bottom: 0;
-            padding-top: 0;
+        background: repeat linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+            url("/img/RMBg.jpg");
+        background-position: center;
+
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+        padding: 0px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row .packageCards {
+        margin-right: 0;
+        animation-delay: 0;
     }
 
     .tokenomics {
-        width: 80vw;
-        /* height: 500px; */
-        z-index: 5;
+        margin: 0px 0 50px;
     }
-
-    .tokenomicstxt {
-        position: absolute;
-        font-size: 100px;
-        color: rgba(98, 5, 155, 0.35);
-        top: -100px;
-        left: 0;
-    }
-
-    .container img {
-        z-index: 5;
-        width: 80vw;
-    }
+.container h2 {
+    color: #cca354 !important;
+    font-family: "Casino", sans-serif;
+    font-size: 22px;
+    max-width: 80%;
+    text-align: center;
+    margin-bottom: 5px;
 }
-@media only screen and (max-width: 768px) {
-        .container {
-            padding-bottom: 0;
-            padding-top: 0;
-        }
+    .mus {
+        color: whitesmoke;
+        width: 80vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: top;
+        text-align: center;
+        padding: 50px 30px 50px;
+        border: 3px solid #cca354;
+        /* width: 100%; */
+        margin: 50px auto 10px;
+        box-shadow: 0 0 15px rgb(204 163 84 / 50%);
 
-        .tokenomics {
-            width: 80vw;
-            /* height: 500px; */
-            z-index: 5;
-        }
+    }
 
-        .tokenomicstxt {
-            position: absolute;
-            font-size: 100px;
-            color: rgba(98, 5, 155, 0.35);
-            top: -100px;
-            left: 0;
-        }
+    .mus h4 {
+        font-size: 20px;
+        font-family: "casino";
+        color: #cca354;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
 
-        .container img {
-            z-index: 5;
-            width: 80vw;
-        }
-}
-@media only screen and (max-width: 1024px) {
-        .container {
-            padding-bottom: 0;
-            padding-top: 0;
-        }
-
-        .tokenomics {
-            width: 80vw;
-            /* height: 500px; */
-            z-index: 5;
-        }
-
-        .tokenomicstxt {
-            position: absolute;
-            font-size: 100px;
-            color: rgba(98, 5, 155, 0.35);
-            top: -100px;
-            left: 0;
-        }
-
-        .container img {
-            z-index: 5;
-            width: 80vw;
-        }
+    .mus p {
+        font-size: 1rem;
+        font-family: 'Titillium Web',
+            sans-serif;
+        max-width: 700px;
+    }
 }

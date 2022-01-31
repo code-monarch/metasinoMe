@@ -5,7 +5,6 @@ import SideBar from "@/components/SideBar";
 import Navigation from "@/components/Navigation";
 import About from "@/components/About";
 import RoadMap from "@/components/RoadMap";
-import Wwd from "@/components/Wwd";
 import Footer from "@/components/Footer";
 import aboutData from "@/components/aboutData";
 import Tokenomics from "@/components/Tokenomics";
@@ -62,7 +61,6 @@ export default function Home() {
       <About id={"about"} />
       <RoadMap id={"roadmap"} />
       <Tokenomics id={"tokenomics"} />
-      <Wwd />
       <Footer />
     </div>
   );
