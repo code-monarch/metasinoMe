@@ -1,3 +1,4 @@
+
 .container {
     background: repeat linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
         url("/img/RMBg.jpg");
@@ -7,7 +8,6 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    align-items: center;
     align-items: center;
     padding: 0px 0;
     margin-left: auto;
@@ -134,13 +134,13 @@
             margin-right: auto;
         }
    .tokenomics {
-       margin: 70px 0 50px;
+       margin: 170px 0 50px;
    }
 .row {
     width: 90vw;
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -243,14 +243,26 @@
 
         height: auto;
         width: 100vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: flex !important;
+        flex-direction: column !important;
+        /* align-items: center; */
         align-items: center;
         padding: 0px 0;
         margin-left: auto;
         margin-right: auto;
     }
+.row {
+    width: 80vw !important;
+    /* height: 100%; */
+    display: flex;
+    direction: column !important;
+    /* justify-content: space-betw; */
+    align-items: center !important;
+    padding: 0 auto !important;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+
+}
 
     .row .packageCards {
         margin-right: 0;
@@ -258,7 +270,7 @@
     }
 
     .tokenomics {
-        margin: 0px 0 50px;
+        margin: 50px 0 50px;
     }
 .container h2 {
     color: #cca354 !important;

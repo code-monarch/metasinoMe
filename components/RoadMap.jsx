@@ -18,15 +18,15 @@ const RoadMap = ({ id }) => {
             alt='Roadmap heading Text'
           />
         </div>
-        <div>
+        {/* <div>
           <img
             className={styles.roadmapLane}
             src='roadmapLane.svg'
             alt='Roadmap lane'
           />
-        </div>
+        </div> */}
         {/* PHASE 1 */}
-        <div>
+        <div className={`${styles.columns} ${styles.column1}`}>
           <img
             className={`${styles.phase1} ${
               styles.dates
@@ -44,7 +44,7 @@ const RoadMap = ({ id }) => {
           />
         </div>
         {/* PHASE 2 */}
-        <div>
+        <div className={`${styles.columns} ${styles.column2}`}>
           <img
             className={`${styles.phase2} ${
               styles.dates
@@ -61,7 +61,8 @@ const RoadMap = ({ id }) => {
             alt='phase 2 cont'
           />
         </div>
-        <div>
+        {/*  */}
+        <div className={`${styles.columns} ${styles.column3}`}>
           <img
             className={`${styles.phase3} ${
               styles.dates

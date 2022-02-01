@@ -30,6 +30,9 @@
     display: flex;
     flex-direction: column;
     align-items: center !important;
+    padding: 0px 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .casinoInMetaverse {
@@ -78,6 +81,11 @@
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
+     /* display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     margin: 60px auto 0 ; */
 }
 
 .sandboxLeft {
@@ -103,11 +111,23 @@
     background-repeat: no-repeat;
     color: whitesmoke;
     width: 100vw;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center !important;
     justify-content: space-between;
-    align-items: center !important;
+    align-items: center !important; */
+     /* display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 0px 0;
+     margin-left: auto;
+     margin-right: auto; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       margin: 0 auto;
+       padding: 60px 0 60px;
     /* height: 100vh; */
 }
 
@@ -115,11 +135,11 @@
     width: 80%;
     display: flex;
     flex-direction: row !important;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
-    padding: 0 auto;
-    padding: 60px 0;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 0 auto; */
+    padding: 60px auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -321,7 +341,7 @@
     align-items: center !important;
     justify-content: space-between;
     align-items: center !important;
-    padding: 0 auto;
+    padding: 0 auto !important;
     /* height: 100vh; */
 }
 

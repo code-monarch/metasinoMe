@@ -13,12 +13,12 @@
   display: none;
 }
 
-@media only screen and (max-width: 520px) {
+@media only screen and (max-width: 768px) {
   .menuIcon {
-    display: inline-block;
+    display: block;
     position: fixed;
-    top: 30px;
-    left: 30px;
+    top: 60px;
+    left: 60px;
     /* max-height: 90px; */
     cursor: pointer;
     transition: 0.3s all ease-in;
@@ -32,18 +32,24 @@
     pointer-events: none;
   }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 480px) {
   .menuIcon {
-    display: inline-block;
-    position: fixed;
     top: 30px;
     left: 30px;
-    /* max-height: 90px; */
+  }
+}
+@media only screen and (min-width: 769) {
+  .menuIcon {
+    display: none;
+    pointer-events: none;
+    /* position: fixed;
+    top: 30px;
+    left: 30px;
     cursor: pointer;
     transition: 0.3s all ease-in;
     z-index: 5000;
     color:rgba(204, 163, 84, 1);
-    background: transparent;
+    background: transparent; */
   }
 
   .hideIcon {

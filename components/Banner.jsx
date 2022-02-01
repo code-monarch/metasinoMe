@@ -76,8 +76,8 @@ function Banner() {
           data-wow-delay='1000ms'
           className={"wow animate__animated animate__fadeInUpBig"}>
           <Link href='/#about'>
-            <a>
-              <i className='fab fa-chevron-down fa-lg'></i>
+            <a className={styles.downArrow}>
+              <i className="fas fa-sort-down fa-lg"></i>
             </a>
           </Link>
         </div>
