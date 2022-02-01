@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import styles from "./banner.module.css";
-// import Timer from "./Timer";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -20,7 +19,7 @@ function Banner() {
   return (
     <div className={styles.container}>
       <div className={styles.col2}>
-       {/* <Timer /> */}
+        {/* <Timer /> */}
         <div>
           <img
             className={`${
@@ -30,7 +29,6 @@ function Banner() {
             alt='welcome to'
           />
         </div>
-
         <div>
           <img
             data-wow-delay='370ms'

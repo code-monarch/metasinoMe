@@ -1,6 +1,18 @@
+.listing{
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+.listingCont{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .container {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
         url("/img/roller.jpg");
+        background-color: black;
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
@@ -227,6 +239,11 @@
 
 
 @media only screen and (max-width: 480px) {
+    .listing {
+        position: relative;
+        width: 80vw;
+        height: 200px;
+    }
 .container {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
         url("/img/roller.jpg");

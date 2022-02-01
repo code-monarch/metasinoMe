@@ -1,5 +1,9 @@
 import React, { useEffect } from "react";
+
+import Timer from "./Timer";
+
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./about.module.css";
 
 const isServer = typeof window === "undefined";
@@ -19,6 +23,12 @@ const About = ({ id }) => {
       <section id={id} className={styles.container}>
         {/*  */}
         <div className={styles.aboutContainer}>
+          <div className={styles.listingCont}>
+            <Timer />
+            <div className={styles.listing}>
+              <Image layout='fill' src='/img/listing.jpg' />
+            </div>
+          </div>
           <div className={styles.aboutContent}>
             <img
               className={styles.casinoInMetaverse}

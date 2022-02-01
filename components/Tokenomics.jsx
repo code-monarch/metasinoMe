@@ -28,7 +28,7 @@ const Tokenomics = ({ id }) => {
             styles.packageCards
           }  ${"wow animate__animated animate__flipInY"}`}>
           <h3>Play to Earn(P2E)</h3>
-          <p> 35%</p>
+          <p> 34%</p>
           <p>700,000,000</p>
         </div>
         {/* SECOND CARD */}
@@ -48,7 +48,7 @@ const Tokenomics = ({ id }) => {
           }  ${"wow animate__animated animate__flipInY"}`}
           data-wow-delay='370ms'>
           <h3>LP.</h3>
-          <p> 5%</p>
+          <p> 4%</p>
           <p>100,000,000</p>
         </div>
         {/* FOURTH CARD */}
@@ -78,8 +78,8 @@ const Tokenomics = ({ id }) => {
           }  ${"wow animate__animated animate__flipInY"}`}
           data-wow-delay='570ms'>
           <h3>Presale</h3>
-          <p> 25%</p>
-          <p>500,000,000</p>
+          <p> 24%</p>
+          <p>400,000,000</p>
         </div>
         <div
           className={`${styles.card7} ${
@@ -91,7 +91,6 @@ const Tokenomics = ({ id }) => {
           <p>60,000,000</p>
         </div>
       </div>
-      <h2>Token vesting immediately after sale.</h2>
       <div className={styles.mus}>
         <h4>WHAT MAKES US UNIQUE</h4>
         <p>
