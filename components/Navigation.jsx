@@ -58,7 +58,7 @@ const Navigation = () => {
               </a>
             </li>
             <div className={styles.telegram}>
-              <a href='t.me/MetasinoChat' target='_blank' rel='noreferrer'>
+              <a href='https://t.me/MetasinoChat' target='_blank' rel='noreferrer'>
                 <i className='fab fa-telegram fa-lg'></i>
               </a>
             </div>

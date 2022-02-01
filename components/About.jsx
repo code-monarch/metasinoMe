@@ -41,7 +41,7 @@ const About = ({ id }) => {
               maintained and whales do not interfere.
             </p>
             <div className={styles.buttonGrp}>
-              <Link href='t.me/MetasinoChat'>
+              <Link href='https://t.me/MetasinoChat'>
                 <a
                   className={styles.join}
                   target='_blank'
@@ -73,7 +73,7 @@ const About = ({ id }) => {
             <div
               className={`${
                 styles.card
-              }${"wow animate__animated animate__flipInY"}`}>
+              } ${"wow animate__animated animate__flipInY"}`}>
               <h3 className={styles.wwdTitle}>Play-to-Earn</h3>
               <h4>
                 Virtual casino games ranging from Blackjack, Poker, Big Six
@@ -83,7 +83,7 @@ const About = ({ id }) => {
             <div
               className={`${
                 styles.card
-              }${"wow animate__animated animate__flipInY"}`}>
+              } ${"wow animate__animated animate__flipInY"}`}>
               <h3 className={styles.wwdTitle}>Income-Generating NFTs</h3>
               <h4>
                 Yield-bearing assets enabling you to earn revenue through fees
@@ -94,7 +94,7 @@ const About = ({ id }) => {
             <div
               className={`${
                 styles.card
-              }${"wow animate__animated animate__flipInY"}`}>
+              } ${"wow animate__animated animate__flipInY"}`}>
               <h3 className={styles.wwdTitle}>Staking</h3>
               <h4>
                 Metasino will have a single-asset staking for passive income
@@ -105,7 +105,7 @@ const About = ({ id }) => {
             <div
               className={`${
                 styles.card
-              }${"wow animate__animated animate__flipInY"}`}>
+              } ${"wow animate__animated animate__flipInY"}`}>
               <h3 className={styles.wwdTitle}>Social life & Gambling</h3>
               <h4>
                 Virtual nightclub packed with stripclub, VIP lounge and a
@@ -117,7 +117,7 @@ const About = ({ id }) => {
             <div
               className={`${
                 styles.card
-              }${"wow animate__animated animate__flipInY"}`}>
+              } ${"wow animate__animated animate__flipInY"}`}>
               <h3 className={styles.wwdTitle}>Metasino Properties</h3>
               <h4>
                 Metasino Sandbox land coordinates are LAND (-41, -132).and much
