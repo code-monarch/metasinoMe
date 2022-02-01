@@ -2,11 +2,15 @@ import React, { useEffect } from "react";
 import Link from "next/link";
 import styles from "./about.module.css";
 
+const isServer = typeof window === "undefined";
+const WOW = !isServer ? require("wow.js") : null;
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 const About = ({ id }) => {
   useEffect(() => {
+       const wow = new WOW().init();
     AOS.init();
   }, []);
   // const { aboutData, id } = props;
@@ -66,14 +70,20 @@ const About = ({ id }) => {
         </div>
         <div className={styles.wwdcontainer}>
           <div className={styles.wwd}>
-            <div className={styles.card}>
+            <div
+              className={`${
+                styles.card
+              }${"wow animate__animated animate__flipInY"}`}>
               <h3 className={styles.wwdTitle}>Play-to-Earn</h3>
               <h4>
                 Virtual casino games ranging from Blackjack, Poker, Big Six
                 wheel, Slot machine, Craps, Roulette, Baccarat, Pool etc
               </h4>
             </div>
-            <div className={styles.card}>
+            <div
+              className={`${
+                styles.card
+              }${"wow animate__animated animate__flipInY"}`}>
               <h3 className={styles.wwdTitle}>Income-Generating NFTs</h3>
               <h4>
                 Yield-bearing assets enabling you to earn revenue through fees
@@ -81,7 +91,10 @@ const About = ({ id }) => {
                 machine in Las Vegas
               </h4>
             </div>
-            <div className={styles.card}>
+            <div
+              className={`${
+                styles.card
+              }${"wow animate__animated animate__flipInY"}`}>
               <h3 className={styles.wwdTitle}>Staking</h3>
               <h4>
                 Metasino will have a single-asset staking for passive income
@@ -89,7 +102,10 @@ const About = ({ id }) => {
                 development progresses.
               </h4>
             </div>
-            <div className={styles.card}>
+            <div
+              className={`${
+                styles.card
+              }${"wow animate__animated animate__flipInY"}`}>
               <h3 className={styles.wwdTitle}>Social life & Gambling</h3>
               <h4>
                 Virtual nightclub packed with stripclub, VIP lounge and a
@@ -98,7 +114,10 @@ const About = ({ id }) => {
                 headset.
               </h4>
             </div>
-            <div className={styles.card}>
+            <div
+              className={`${
+                styles.card
+              }${"wow animate__animated animate__flipInY"}`}>
               <h3 className={styles.wwdTitle}>Metasino Properties</h3>
               <h4>
                 Metasino Sandbox land coordinates are LAND (-41, -132).and much

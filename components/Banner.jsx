@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import styles from "./banner.module.css";
+// import Timer from "./Timer";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -8,7 +9,9 @@ import "aos/dist/aos.css";
 const isServer = typeof window === "undefined";
 const WOW = !isServer ? require("wow.js") : null;
 
+
 function Banner() {
+
   // INSTANTIATE WOW JS
   useEffect(() => {
     const wow = new WOW().init();
@@ -17,16 +20,7 @@ function Banner() {
   return (
     <div className={styles.container}>
       <div className={styles.col2}>
-        {/* <div>
-          <img
-            data-wow-delay='470ms'
-            className={`${
-              styles.metasinoLogo
-            } ${"wow animate__animated animate__fadeInDown"}`}
-            src='/img/Metasino-logo.png'
-            alt='metasino logo'
-          />
-        </div> */}
+       {/* <Timer /> */}
         <div>
           <img
             className={`${
@@ -77,7 +71,7 @@ function Banner() {
           className={"wow animate__animated animate__fadeInUpBig"}>
           <Link href='/#about'>
             <a className={styles.downArrow}>
-              <i className="fas fa-sort-down fa-lg"></i>
+              <i className='fas fa-sort-down fa-lg'></i>
             </a>
           </Link>
         </div>
