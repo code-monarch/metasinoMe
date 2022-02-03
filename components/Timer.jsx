@@ -45,28 +45,25 @@ const Timer = () => {
     <div className={styles.timer}>
       <h3>Metasino Launching in</h3>
       <div className={styles.timeflex}>
-        <div className={styles.time}>
+         <div className={styles.time}>
           <span>
             {timerHours}: {""}
           </span>
-          {/* <p>Hours</p> */}
         </div>
         <div className={styles.time}>
           <span>
             {timerMinutes}: {""}
           </span>
-          {/* <p>Minutes</p> */}
         </div>
         <div className={styles.time}>
           <span>{timerSeconds}</span>
-          {/* <p>Seconds</p> */}
         </div>
       </div>
       <a
         href='https://pancakeswap.finance/swap?outputCurrency=0x04C3c450A633FfDabBA3730209A9fcE1eb72388e'
         target='_blank'
         rel='noreferrer'>
-        Buy Casino
+        Buy $Casino
       </a>
     </div>
   );

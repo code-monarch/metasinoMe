@@ -71,7 +71,7 @@
 
 .slider {
     height: 70px;
-    padding-left: 15px;
+    padding-left: 0;
     overflow: hidden;
     text-align: center;
 }
@@ -281,7 +281,7 @@
 
     .slider {
         height: 70px;
-        padding-left: 15px;
+        padding-left: 0;
         overflow: hidden;
         text-align: center;
     }
