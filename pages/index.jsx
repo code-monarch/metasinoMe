@@ -92,7 +92,7 @@ export default function Home() {
         {/* FACEBOOK OG TAGS END //Size of image. Any size up to 300. Anything
         above 300px will not work in WhatsApp */}
         <link rel='icon' href='/MetasinoLogo.ico' />
-        /* <link rel='shortcut icon' href='/MetasinoLogo.ico' />
+         <link rel='shortcut icon' href='/MetasinoLogo.ico' />
         <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
       </Head>
 
