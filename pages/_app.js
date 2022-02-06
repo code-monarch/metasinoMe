@@ -1,5 +1,4 @@
 import React from "react";
-import LoadingScreen from "@/components/LoadingScreen";
 // import { useRouter } from "next/router";
 import "../styles/globals.css";
 
@@ -22,12 +21,8 @@ function MyApp({ Component, pageProps }) {
 // }, [router]);
 
 
-  return (
-    <>
-      <LoadingScreen />
+  return
       <Component {...pageProps} />
-    </>
-  );
 }
 
 export default MyApp;
