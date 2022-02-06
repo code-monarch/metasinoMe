@@ -66,7 +66,7 @@ export default function Home() {
           name='twitter:image'
           content='https://i.ibb.co/YWYp74d/Code-Monarch.jpg'
         />
-        // FACEBOOK OG TAGS
+        {/* FACEBOOK OG TAGS */}
         <meta property='og:site_name' content='codeMonarch' />
         <meta property='og:url' content='http://www.codemonarch.com/' />
         <meta property='og:type' content='website' />
@@ -89,8 +89,8 @@ export default function Home() {
         <meta property='og:updated_time' content='updatedtime' />
         <meta property='og:image:width' content='300' />
         <meta property='og:image:height' content='300' />
-        //FACEBOOK OG TAGS END //Size of image. Any size up to 300. Anything
-        above 300px will not work in WhatsApp
+        {/* FACEBOOK OG TAGS END //Size of image. Any size up to 300. Anything
+        above 300px will not work in WhatsApp */}
         <link rel='icon' href='/MetasinoLogo.ico' />
         /* <link rel='shortcut icon' href='/MetasinoLogo.ico' />
         <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
