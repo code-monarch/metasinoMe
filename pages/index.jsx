@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Head from "next/head";
 import Banner from "@/components/Banner";
 import SideBar from "@/components/SideBar";
@@ -31,7 +31,7 @@ export default function Home() {
     }
   };
 
-  // clear sidebar when screen is touched when dropdown is visible
+  //  clear sidebar when screen is touched when dropdown is visible
   const clearScreen = () => {
     if (hideMenuIcon) {
       toggleDropdown();
@@ -95,7 +95,6 @@ export default function Home() {
         /* <link rel='shortcut icon' href='/MetasinoLogo.ico' />
         <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
       </Head>
-      {/*  */}
 
       <div className={hideMenuIcon ? styles.hideIcon : styles.menuIcon}>
         <i className='fas fa-bars fa-lg' onClick={toggleDropdown}></i>

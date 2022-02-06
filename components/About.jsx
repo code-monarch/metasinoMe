@@ -26,7 +26,7 @@ const About = ({ id }) => {
           <div className={styles.listingCont}>
             <Timer />
             <div className={styles.listing}>
-              <Image layout='fill' src='/img/listing.jpg' />
+              <Image layout='fill' src='/img/listing.jpg' alt="" />
             </div>
           </div>
           <div className={styles.aboutContent}>
