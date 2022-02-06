@@ -67,8 +67,8 @@ export default function Home() {
           content='https://i.ibb.co/YWYp74d/Code-Monarch.jpg'
         />
         {/* FACEBOOK OG TAGS */}
-        <meta property='og:site_name' content='codeMonarch' />
-        <meta property='og:url' content='http://www.codemonarch.com/' />
+        <meta property='og:site_name' content='Metasino' />
+        <meta property='og:url' content='http://www.metasino.live/' />
         <meta property='og:type' content='website' />
         <meta
           property='og:title'
