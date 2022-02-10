@@ -64,7 +64,7 @@ export default function Home() {
         />
         <meta
           name='twitter:image'
-          content='https://i.ibb.co/MB3TxSM/special.jpg'
+          content='https://metasino.live/special.jpg'
         />
         {/* FACEBOOK OG TAGS */}
         <meta property='og:site_name' content='Metasino' />
@@ -81,17 +81,14 @@ export default function Home() {
               $CASINO. Participants all around the world will come to Metasino
               to play different casino games and win redeemable rewards.'
         />
-        <meta
-          property='og:image'
-          content='https://i.ibb.co/MB3TxSM/special.jpg'
-        />
+        <meta property='og:image' content='https://metasino.live/special.jpg' />
         <meta property='og:image:type' content='image/jpeg' />
         <meta property='og:updated_time' content='updatedtime' />
         <meta property='og:image:width' content='300' />
         <meta property='og:image:height' content='300' />
         {/* FACEBOOK OG TAGS END //Size of image. Any size up to 300. Anything
         above 300px will not work in WhatsApp */}
-        
+
         <link rel='icon' href='/MetasinoLogo.ico' />
         <link rel='shortcut icon' href='/MetasinoLogo.ico' />
         <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
