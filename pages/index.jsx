@@ -64,7 +64,7 @@ export default function Home() {
         />
         <meta
           name='twitter:image'
-          content='https://i.ibb.co/2Zf21hg/special.jpg'
+          content='https://i.ibb.co/MB3TxSM/special.jpg'
         />
         {/* FACEBOOK OG TAGS */}
         <meta property='og:site_name' content='Metasino' />
@@ -83,7 +83,7 @@ export default function Home() {
         />
         <meta
           property='og:image'
-          content='https://i.ibb.co/2Zf21hg/special.jpg'
+          content='https://i.ibb.co/MB3TxSM/special.jpg'
         />
         <meta property='og:image:type' content='image/jpeg' />
         <meta property='og:updated_time' content='updatedtime' />
@@ -91,6 +91,7 @@ export default function Home() {
         <meta property='og:image:height' content='300' />
         {/* FACEBOOK OG TAGS END //Size of image. Any size up to 300. Anything
         above 300px will not work in WhatsApp */}
+        
         <link rel='icon' href='/MetasinoLogo.ico' />
         <link rel='shortcut icon' href='/MetasinoLogo.ico' />
         <link rel='shortcut icon' href='/favicon.ico' type='image/x-icon' />
