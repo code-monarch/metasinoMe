@@ -64,7 +64,7 @@ export default function Home() {
         />
         <meta
           name='twitter:image'
-          content='https://i.ibb.co/MB3TxSM/special.jpg'
+          content='https://i.ibb.co/2Zf21hg/special.jpg'
         />
         {/* FACEBOOK OG TAGS */}
         <meta property='og:site_name' content='Metasino' />
@@ -83,7 +83,7 @@ export default function Home() {
         />
         <meta
           property='og:image'
-          content='https://i.ibb.co/MB3TxSM/special.jpg'
+          content='https://i.ibb.co/2Zf21hg/special.jpg'
         />
         <meta property='og:image:type' content='image/jpeg' />
         <meta property='og:updated_time' content='updatedtime' />
