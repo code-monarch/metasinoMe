@@ -64,7 +64,7 @@ export default function Home() {
         />
         <meta
           name='twitter:image'
-          content='https://metasino.live/special.jpg'
+          content='https://i.ibb.co/MB3TxSM/special.jpg'
         />
         {/* FACEBOOK OG TAGS */}
         <meta property='og:site_name' content='Metasino' />
@@ -81,7 +81,10 @@ export default function Home() {
               $CASINO. Participants all around the world will come to Metasino
               to play different casino games and win redeemable rewards.'
         />
-        <meta property='og:image' content='https://metasino.live/special.jpg' />
+        <meta
+          property='og:image'
+          content='https://i.ibb.co/MB3TxSM/special.jpg'
+        />
         <meta property='og:image:type' content='image/jpeg' />
         <meta property='og:updated_time' content='updatedtime' />
         <meta property='og:image:width' content='300' />
