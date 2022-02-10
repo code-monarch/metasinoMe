@@ -42,7 +42,7 @@ export default function Home() {
   return (
     <div className={styles.container} onClick={clearScreen}>
       <Head>
-        <title>Metasino-the first truly decentralized Casino</title>
+        <title>Metasino, The first truly decentralized Casino</title>
         <meta
           name='description'
           content='Play Casino in the Metaverse | The First Truly Decentralized Casino'

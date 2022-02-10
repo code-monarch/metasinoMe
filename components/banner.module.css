@@ -213,6 +213,17 @@
     }
 }
 
+@media only screen and (max-width: 282px) {
+    .container{
+        padding-top: 0!important;
+    }
+    .metasinoTxt {
+        width: 250px !important;
+        margin-top: 50px;
+        margin-bottom: 0px !important;
+        padding: 0;
+    }
+}
 @media only screen and (max-width: 480px) {
     .container {
         display: flex;
@@ -236,12 +247,6 @@
 
     .col2 {
         margin-top: 170px;
-    }
-
-    .metasinoLogo {
-        width: 50px;
-        height: 50px;
-        margin-bottom: 25px;
     }
 
     .welcomeTo {

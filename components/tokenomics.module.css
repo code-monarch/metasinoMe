@@ -1,7 +1,7 @@
 
 .container {
     background: repeat linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url("/img/RMBg.jpg");
+        url("/img/special.jpg");
     background-position: center;
     background-size: contain;
     height: auto;
@@ -115,6 +115,12 @@
     font-family: 'Titillium Web',
         sans-serif;
     max-width: 70%;
+}
+@media only screen and (max-width: 282px) {
+   .tokenomics {
+       width: 200px;
+       margin: 170px 0 50px;
+   }
 }
  @media only screen and (max-width: 768px) {
         .container {

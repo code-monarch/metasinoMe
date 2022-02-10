@@ -14,8 +14,8 @@
         url("/img/roller.jpg");
         background-color: black;
     background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
     /* font-family: "Lato Regular"; */
     height: auto;
     width: 100vw;
@@ -116,7 +116,7 @@
 }
 
 .wwdcontainer {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
         url("/img/black.jpg");
     background-position: top;
     background-size: contain;
@@ -237,7 +237,19 @@
     margin-bottom: 20px;
 }
 
-
+@media only screen and (max-width: 282px) {
+    .casinoInMetaverse {
+        width: 150px !important;
+    }
+    .partnership {
+        text-align: left !important;
+    }
+}
+@media only screen and (max-width: 365px) {
+    .casinoInMetaverse {
+        width: 200px !important;
+    }
+}
 @media only screen and (max-width: 480px) {
     .listing {
         position: relative;
@@ -346,10 +358,10 @@
 }
 
 .wwdcontainer {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        url("/img/black.jpg");
+     background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
+     url("/img/black.jpg");
     background-position: top;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     color: whitesmoke;
     width: 100vw;
@@ -370,7 +382,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 0 auto;
-    padding: 60px 0;
+    padding: 0px 0 !important;
     margin-left: auto;
     margin-right: auto;
 }
@@ -562,10 +574,10 @@
     }
 
     .wwdcontainer {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),
             url("/img/black.jpg");
         background-position: top;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         color: whitesmoke;
         width: 100vw;

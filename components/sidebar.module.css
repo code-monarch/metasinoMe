@@ -93,6 +93,18 @@
        display: inline-block;
    }
 }
+@media only screen and (max-width: 282px) {
+    .navItem {
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 13px!important;
+        font-family: 'Casino',
+            sans-serif;
+        letter-spacing: 2px;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
 @media only screen and (max-width: 520px) {
     .navMenu {
         display: flex;
@@ -110,11 +122,6 @@
         padding: 20px 5px;
         transition: 0.5s;
         z-index: 50;
-        /* -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(10px); */
-        /* background: 5px solid rgba(0, 0, 0, 0.2); */
-        /* border-radius: 0 0 20px 20px;
-        border-bottom: 3px solid rgba(255, 255, 255, 0.2); */
         overflow: hidden;
         z-index: 5000;
         transition: all 0.2s ease-in;
@@ -166,12 +173,6 @@
         color: #fff;
         text-transform: uppercase;
     }
-
-    /* 
-    .a {
-        width: 100%;
-            width: 100%;
-    } */
 
     .backIcon {
         font-size: 40px;
